@@ -9,6 +9,8 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  id-token: write
+  issues: write
 
 jobs:
   update-readme:
@@ -22,7 +24,9 @@ jobs:
       - name: Run Claude Code to update README
         uses: anthropics/claude-code-action@v1
         with:
-          claude_access_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          use_bedrock: false
+          use_vertex: false
           prompt: |
             당신은 "뭐쓸까?" 프로젝트의 자동 업데이트 에이전트입니다.
 
@@ -54,7 +58,11 @@ jobs:
 
             ### 3. README에 경쟁 차트 업데이트
             data/popularity.csv의 최근 14일 데이터를 기반으로,
-            README.md의 "일자별 인기도 트렌드" 섹션의 Mermaid xychart를 업데이트하세요.
+            README.md의 POPULARITY_CHART_START와 POPULARITY_CHART_END 사이의 Mermaid xychart를 업데이트하세요.
+
+            ### 4. 변경사항 커밋
+            변경사항이 있으면 git add와 git commit으로 직접 커밋하세요.
+            커밋 메시지: "auto: 일자별 업데이트 (YYYY-MM-DD)"
 
             ## 규칙
             - 기존 README.md의 구조와 스타일을 유지하세요
@@ -62,5 +70,3 @@ jobs:
             - 커뮤니티 인용문에는 반드시 날짜를 포함하세요
             - 변경 사항이 없으면 불필요한 수정을 하지 마세요
             - 한국어로 작성하세요
-          direct_push: true
-          branch: main
