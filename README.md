@@ -598,15 +598,16 @@ xychart-beta
 <!-- POPULARITY_CHART_START -->
 ```mermaid
 xychart-beta
-    title "AI 코딩 도구 일자별 인기도 (최근 14일)"
-    x-axis ["03-24"]
-    y-axis "인기 점수" 0 --> 100
-    line "Claude Code" [85]
-    line "Cursor" [87]
-    line "GH Copilot" [90]
-    line "Windsurf" [75]
-    line "Codex CLI" [72]
-    line "ChatGPT" [98]
+    title "AI 코딩 도구 일자별 인기도 (최근 7일)"
+    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24"]
+    y-axis "인기 점수" 50 --> 100
+    line "ChatGPT" [97, 97, 98, 98, 98, 98, 98]
+    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90]
+    line "Cursor" [88, 87, 87, 87, 87, 87, 87]
+    line "Claude Code" [83, 84, 84, 85, 85, 85, 85]
+    line "Windsurf" [73, 74, 74, 75, 75, 75, 75]
+    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72]
+    line "Antigravity" [68, 67, 66, 65, 64, 63, 62]
 ```
 <!-- POPULARITY_CHART_END -->
 
