@@ -24,6 +24,29 @@
   <em>"도구가 너무 많아서 도구 고르다 하루가 간다" — 2026년 개발자의 흔한 하루</em>
 </p>
 
+<table align="center">
+<tr>
+<td align="center">
+
+**매일 새벽 5시, AI가 알아서 업데이트합니다**
+
+이 문서는 사람이 수동으로 관리하지 않습니다.
+**매일 KST 05:00**, GitHub Actions + Claude Code가 자동으로:
+
+`32개 AI 도구` · `14개 공식 사이트` · `Reddit / HN / X 커뮤니티` · `가격 페이지`
+
+를 검색하고, 변경사항을 감지하면 즉시 반영합니다.
+인기도 점수도 매일 기록되어 **일자별 경쟁 차트**가 자동 갱신됩니다.
+
+<img src="https://img.shields.io/badge/자동_업데이트-매일_05:00_KST-6366f1?style=for-the-badge&logo=github-actions&logoColor=white" alt="Auto Update">
+<img src="https://img.shields.io/badge/powered_by-Claude_Code-f59e0b?style=for-the-badge" alt="Claude Code">
+<img src="https://img.shields.io/badge/검색_대상-32+_도구-ec4899?style=for-the-badge" alt="32+ tools">
+<img src="https://img.shields.io/badge/데이터_소스-14+_사이트-10b981?style=for-the-badge" alt="14+ sites">
+
+</td>
+</tr>
+</table>
+
 [코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [앱 빌더](#-앱-빌더) · [오픈소스](#-오픈소스) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [인기도 트렌드](#-일자별-인기도-트렌드) · [팩트 체크](#팩트-체크-로그-2026-03-24)
 
 ---
