@@ -8,83 +8,91 @@
 
 ---
 
-## 2026 인기 순위 TOP 15
+## 2026 카테고리별 인기 순위
 
-> 사용자 수, 커뮤니티 반응, 시장 점유율, GitHub Stars, 벤치마크 종합
+> 개발자 커뮤니티 반응, 벤치마크, 채택률, 화제성 기준 — 카테고리별 분리
+
+### 코딩 도구 (에이전트 + IDE)
 
 | 순위 | 도구 | 카테고리 | 근거 |
 |:---:|---|---|---|
-| 1 | **ChatGPT** | 채팅 AI | 주간 9억 사용자, 유료 5천만 명 |
-| 2 | **GitHub Copilot** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE |
-| 3 | **Cursor** | AI IDE | $29.3B 밸류, NVIDIA 4만 엔지니어 사용 |
-| 4 | **Claude Code** | 코딩 에이전트 | SWE-bench 1위 (80.9%), 코드 품질 최강 |
-| 5 | **OpenClaw** | 오픈소스 | GitHub 333K Stars, 범용 AI |
-| 6 | **Gemini** | 채팅 AI | 시장 점유율 5.4%→18.2% 급성장 |
-| 7 | **Windsurf** | AI IDE | LogRocket 2026 1위, Cascade 메모리 |
-| 8 | **Codex CLI** | 코딩 에이전트 | 출시 1개월 100만 개발자, 안전한 샌드박스 |
-| 9 | **Cline** | 오픈소스 | 59.3K Stars, 5M+ VS Code 설치 |
-| 10 | **Antigravity** | AI IDE | Google $24억 투자, 쿼터 논란에도 화제성 |
-| 11 | **Aider** | 코딩 에이전트/오픈소스 | 42.3K Stars, 4.1M 설치, Git-first |
-| 12 | **Claude.ai** | 채팅 AI | 1M 컨텍스트, Extended Thinking |
-| 13 | **Lovable** | 앱 빌더 | $6.6B 밸류, 2,500만 프로젝트 생성 |
-| 14 | **Perplexity** | 채팅 AI | 검색+인용 통합의 유일무이 |
-| 15 | **Devin** | 자율 에이전트 | 진정한 자율 AI 엔지니어, $500→$20 가격 혁신 |
+| 1 | **Claude Code** | 코딩 에이전트 | SWE-bench 1위 (80.9%), 코드 품질 최강, 67% 블라인드 테스트 승률 |
+| 2 | **Cursor** | AI IDE | $29.3B 밸류, NVIDIA 4만 엔지니어 사용, 탭 자동완성 최강 |
+| 3 | **GitHub Copilot** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
+| 4 | **Windsurf** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
+| 5 | **Codex CLI** | 코딩 에이전트 | 출시 1개월 100만 개발자, 안전한 샌드박스, 240+ tok/s |
 
-```mermaid
+### 범용 AI 채팅
 
-xychart-beta
-    title "2026 인기 순위 TOP 10"
-    x-axis ["ChatGPT", "GH Copilot", "Cursor", "Claude Code", "OpenClaw", "Gemini", "Windsurf", "Codex CLI", "Cline", "Antigravity"]
-    y-axis "인기 점수" 0 --> 100
-    bar [98, 90, 87, 85, 82, 78, 75, 72, 68, 65]
-```
+| 순위 | 도구 | 근거 |
+|:---:|---|---|
+| 1 | **ChatGPT** | 주간 9억 사용자, 유료 5천만 명, SuperApp 발표 |
+| 2 | **Claude.ai** | 1M 컨텍스트, Extended Thinking, 코딩 품질 1위 |
+| 3 | **Gemini** | 시장 점유율 5.4%→18.2% 급성장, 영상/이미지 생성 |
+| 4 | **Perplexity** | 검색+인용 통합의 유일무이, Computer 에이전트 |
+| 5 | **Grok** | 2M 컨텍스트 (업계 최대), X 실시간 데이터 |
+
+### 오픈소스
+
+| 순위 | 도구 | Stars | 근거 |
+|:---:|---|---|---|
+| 1 | **OpenClaw** | 333K | 범용 AI, 50+ 메신저, 5400+ Skills |
+| 2 | **Cline** | 59.3K | VS Code 에이전트, 5M+ 설치 |
+| 3 | **Aider** | 42.3K | Git-first, 4.1M 설치, 모든 LLM |
+| 4 | **Tabby** | 33K | 완전 온프레미스, 코드 외부 전송 0% |
+| 5 | **Goose** | 29.4K | Block(Square) 제작, MCP 통합 |
 
 ---
 
 ## 전체 지도
 
-```mermaid
-
-mindmap
-  root((뭐쓸까?))
-    채팅 AI
-      ChatGPT
-      Claude.ai
-      Gemini
-      Copilot MS
-      Grok
-      Perplexity
-    코딩 에이전트
-      Claude Code
-      Codex CLI
-      Gemini CLI
-      Aider
-    AI IDE
-      Cursor
-      Windsurf
-      Antigravity
-      Kiro
-      Trae
-      GitHub Copilot
-    코드 어시스턴트
-      Amp
-      Tabnine
-      Amazon Q
-    앱 빌더
-      Bolt.new
-      v0.app
-      Lovable
-      Replit Agent
-    자율 에이전트
-      Claude Cowork
-      Devin
-    오픈소스
-      OpenClaw
-      OpenCode
-      Cline
-      Tabby
-      Continue.dev
-      Goose
+```
+뭐쓸까?
+├── 채팅 AI
+│   ├── ChatGPT ········· OpenAI, GPT-5.4, $0~200/월
+│   ├── Claude.ai ······· Anthropic, Opus 4.6, $0~200/월
+│   ├── Gemini ·········· Google, 3.1 Pro, $0~250/월
+│   ├── Copilot (MS) ···· Microsoft, M365 통합, $0~30/월
+│   ├── Grok ············ xAI, 2M 컨텍스트, $0~30/월
+│   └── Perplexity ······ 검색+인용, $0~325/월
+│
+├── 코딩 에이전트 (CLI)
+│   ├── Claude Code ····· Anthropic, SWE-bench 1위, $20/월~
+│   ├── Codex CLI ······· OpenAI, 샌드박스, $20/월~
+│   ├── Gemini CLI ······ Google, 무료 1,000 req/일
+│   └── Aider ··········· 오픈소스, 모든 LLM, $0
+│
+├── AI IDE
+│   ├── Cursor ·········· 탭 자동완성 최강, $0~200/월
+│   ├── Windsurf ········ Cascade 메모리, $0~200/월
+│   ├── Antigravity ····· Google, 멀티에이전트, $0~250/월
+│   ├── Kiro ············ AWS, Spec 기반, $0~200/월
+│   ├── Trae ············ ByteDance, 최저가, $0~100/월
+│   └── GitHub Copilot ·· 9+ IDE, $0~39/user/월
+│
+├── 코드 어시스턴트
+│   ├── Amp (구 Cody) ··· Enterprise 전용
+│   ├── Tabnine ········· 에어갭 배포, $39/user/월~
+│   └── Amazon Q ········ AWS 네이티브, $0~19/user/월
+│
+├── 앱 빌더
+│   ├── Bolt.new ········ 브라우저 IDE, $0~25/월
+│   ├── v0.app ·········· Vercel 통합, $0~100/user/월
+│   ├── Lovable ········· 비개발자 친화, $0~50/월
+│   └── Replit Agent ···· 올인원 배포, $0~95/월
+│
+├── 자율 에이전트
+│   ├── Claude Cowork ··· 비개발자 업무, $20/월~
+│   └── Devin ··········· 자율 코딩, $20/월~
+│
+└── 오픈소스
+    ├── OpenClaw ········· 333K Stars, 범용 AI
+    ├── OpenCode ········· 95K Stars, 터미널 에이전트
+    ├── Cline ············ 59K Stars, VS Code 에이전트
+    ├── Aider ············ 42K Stars, Git-first
+    ├── Tabby ············ 33K Stars, 온프레미스
+    ├── Continue.dev ····· 32K Stars, CI/CD 통합
+    └── Goose ············ 29K Stars, Block 제작
 ```
 
 ---
@@ -93,52 +101,30 @@ mindmap
 
 > "나한테 맞는 도구가 뭐지?" 싶을 때, 아래 플로우를 따라가 보세요.
 
-### 코드를 짜고 싶다
-
-```mermaid
-
-flowchart LR
-    A["코드를 짜고 싶다"] --> B{"어디서 작업해?"}
-    B --> C["터미널 CLI"]
-    B --> D["에디터 IDE"]
-    B --> E["기존 IDE에 플러그인"]
-
-    C --> C1["Claude Code\n아키텍처/리팩토링"]
-    C --> C2["Codex CLI\n빠른 실행/샌드박스"]
-    C --> C3["Gemini CLI\n무료 1,000 req/일"]
-    C --> C4["Aider\n오픈소스, 모든 LLM"]
-
-    D --> D1["Cursor\n탭 자동완성 최강"]
-    D --> D2["Windsurf\nCascade 메모리"]
-    D --> D3["Antigravity\n멀티에이전트+브라우저"]
-    D --> D4["Kiro\nSpec 기반 개발"]
-    D --> D5["Trae\n최저가 $3/월"]
-
-    E --> E1["GitHub Copilot\n9+ IDE 지원"]
-    E --> E2["Tabnine\n에어갭/보안 최강"]
-    E --> E3["Amazon Q\nAWS 네이티브"]
 ```
-
-### 앱을 만들거나 업무를 자동화하고 싶다
-
-```mermaid
-
-flowchart LR
-    A{"뭘 하고 싶어?"} --> B["앱을 만들고 싶다"]
-    A --> C["업무를 자동화하고 싶다"]
-    A --> D["AI한테 물어보고 싶다"]
-
-    B --> B1{"코딩 경험은?"}
-    B1 -->|"있다"| B2["Replit Agent\nBolt.new"]
-    B1 -->|"없다"| B3["Lovable\nv0.app"]
-
-    C --> C1{"개발자?"}
-    C1 -->|"예"| C2["Devin\n자율 코딩 에이전트"]
-    C1 -->|"아니오"| C3["Claude Cowork\n업무 에이전트"]
-
-    D --> D1["ChatGPT / Claude.ai / Gemini"]
-    D --> D2["Perplexity — 검색+인용"]
-    D --> D3["Grok — 2M 컨텍스트"]
+무엇을 하고 싶어?
+│
+├─ 코드를 짜고 싶다
+│  │
+│  ├─ 터미널(CLI)에서 → Claude Code | Codex CLI | Gemini CLI | Aider
+│  ├─ 새 에디터(IDE)로 → Cursor | Windsurf | Antigravity | Kiro | Trae
+│  └─ 기존 IDE에 플러그인 → GitHub Copilot | Tabnine | Amazon Q
+│
+├─ 앱을 만들고 싶다
+│  │
+│  ├─ 코딩 경험 있다 → Replit Agent | Bolt.new
+│  └─ 코딩 경험 없다 → Lovable | v0.app
+│
+├─ 업무를 자동화하고 싶다
+│  │
+│  ├─ 개발자 → Devin (자율 코딩 에이전트)
+│  └─ 비개발자 → Claude Cowork (업무 에이전트)
+│
+└─ AI한테 물어보고 싶다
+   │
+   ├─ 범용 → ChatGPT | Claude.ai | Gemini
+   ├─ 검색+인용 → Perplexity
+   └─ 초대형 컨텍스트 → Grok (2M 토큰)
 ```
 
 ---
@@ -147,18 +133,17 @@ flowchart LR
 
 > 웹/앱에서 대화하며 코딩 질문, 코드 생성, 디버깅. 가장 접근성 높은 AI 도구.
 
-```mermaid
-
-graph LR
-    subgraph 채팅AI["채팅 AI 생태계"]
-        direction TB
-        ChatGPT["ChatGPT\nGPT-5.4\n$0~200/월"]
-        Claude["Claude.ai\nOpus 4.6\n$0~200/월"]
-        Gemini["Gemini\n3.1 Pro\n$0~250/월"]
-        MSCopilot["Copilot MS\nGPT-5.4+Claude\n$0~30/월"]
-        Grok["Grok\n4.20\n$0~30/월"]
-        Perplexity["Perplexity\nSonar Pro\n$0~325/월"]
-    end
+```
+채팅 AI 생태계
+┌──────────────┬──────────────┬──────────────┐
+│  ChatGPT     │  Claude.ai   │  Gemini      │
+│  GPT-5.4     │  Opus 4.6    │  3.1 Pro     │
+│  $0~200/월   │  $0~200/월   │  $0~250/월   │
+├──────────────┼──────────────┼──────────────┤
+│  Copilot MS  │  Grok        │  Perplexity  │
+│  GPT+Claude  │  4.20        │  Sonar Pro   │
+│  $0~30/월    │  $0~30/월    │  $0~325/월   │
+└──────────────┴──────────────┴──────────────┘
 ```
 
 | | ChatGPT | Claude.ai | Gemini | Copilot (MS) | Grok | Perplexity |
@@ -288,12 +273,16 @@ timeline
 
 > 기존 IDE(VS Code, JetBrains 등)에 플러그인으로 추가하는 AI 도구.
 
-```mermaid
-
-graph LR
-    Amp["Amp\n구 Cody\nSourcegraph"] --- AmpNote["Enterprise 전용\nFree/Pro 2025.07 폐지\nAmp으로 전환"]
-    Tabnine["Tabnine\n프라이버시 특화"] --- TabNote["$39~59/user/월\n연간 구독만\n에어갭 배포"]
-    AmazonQ["Amazon Q\nAWS 네이티브"] --- QNote["$19/user/월 Pro\nFree 50 req/월\nIP 보상 제공"]
+```
+코드 어시스턴트 (플러그인형)
+┌─────────────────────┬─────────────────────┬─────────────────────┐
+│  Amp (구 Cody)      │  Tabnine            │  Amazon Q           │
+│  Sourcegraph        │  프라이버시 특화     │  AWS 네이티브       │
+│                     │                     │                     │
+│  Enterprise 전용    │  $39~59/user/월     │  $19/user/월 Pro    │
+│  Free/Pro 폐지됨    │  연간 구독만        │  Free 50 req/월     │
+│  → Amp으로 전환     │  에어갭 배포 가능   │  IP 보상 제공       │
+└─────────────────────┴─────────────────────┴─────────────────────┘
 ```
 
 | | Amp (구 Cody) | Tabnine | Amazon Q Developer |
@@ -312,15 +301,17 @@ graph LR
 
 > 코딩 없이(또는 최소한으로) 앱을 만들고 배포까지. "바이브 코딩"의 본거지.
 
-```mermaid
-
-graph TB
-    subgraph 앱빌더["앱 빌더 포지션"]
-        V0["v0.app — UI/프론트 특화, Vercel 통합"]
-        Bolt["Bolt.new — 풀스택 속도, 브라우저 IDE"]
-        Lovable["Lovable — 비개발자 친화, $6.6B 밸류"]
-        Replit["Replit Agent — 올인원, 배포+호스팅"]
-    end
+```
+앱 빌더 포지션
+┌──────────────────────────────┬──────────────────────────────┐
+│  v0.app                     │  Bolt.new                    │
+│  UI/프론트 특화              │  풀스택 속도                 │
+│  Vercel 원클릭 배포          │  브라우저 내 완전 IDE        │
+├──────────────────────────────┼──────────────────────────────┤
+│  Lovable                    │  Replit Agent                │
+│  비개발자 친화               │  올인원                     │
+│  $6.6B 밸류에이션            │  배포+호스팅 내장            │
+└──────────────────────────────┴──────────────────────────────┘
 ```
 
 | | Bolt.new | v0.app | Lovable | Replit Agent |
@@ -350,17 +341,22 @@ graph TB
 
 > "이거 해줘" 하면 알아서 연구, 계획, 실행, 검증까지. 가장 미래적인 카테고리.
 
-```mermaid
-
-graph LR
-    Cowork["Claude Cowork\n지식 노동자용\n파일/문서/리서치"] -->|"$20/월 Pro 포함"| CTarget["마케터, 분석가\n법무, 재무팀"]
-    Devin["Devin\n소프트웨어 엔지니어용\n코드/배포/디버그"] -->|"$20/월 Core\n$500/월 Team"| DTarget["개발팀\n주니어 업무 위임"]
+```
+자율 에이전트
+┌─────────────────────────────────┬─────────────────────────────────┐
+│  Claude Cowork                  │  Devin                          │
+│  오피스 워커용                   │  소프트웨어 엔지니어용           │
+│  파일/문서/리서치                │  코드/배포/디버그               │
+│                                 │                                 │
+│  $20/월 (Pro 포함)              │  $20/월 Core ~ $500/월 Team     │
+│  → 마케터, 분석가, 법무, 재무   │  → 개발팀, 주니어 업무 위임     │
+└─────────────────────────────────┴─────────────────────────────────┘
 ```
 
 | | Claude Cowork | Devin |
 |---|---|---|
 | **사이트** | [claude.com](https://claude.com) | [devin.ai](https://devin.ai) |
-| **대상** | 비개발자 지식 노동자 | 소프트웨어 엔지니어 |
+| **대상** | 비개발자 오피스 워커 | 소프트웨어 엔지니어 |
 | **환경** | 데스크톱 앱 | 클라우드 IDE |
 | **시작가** | $20/월 (Pro) | $20/월 (Core, ACU별 과금) |
 | **연동** | Drive, Gmail, Slack, DocuSign | GitHub, 자체 IDE |
@@ -442,19 +438,15 @@ xychart-beta
 
 ### $20/월 격전지
 
-```mermaid
-
-graph TB
-    subgraph TWENTY["$20/월 격전지 — 8개 도구가 같은 가격에 경쟁"]
-        W1["ChatGPT Plus\nGPT-5.2 + Codex"]
-        W2["Claude Pro\nCode + Cowork 포함"]
-        W3["Cursor Pro\n자동완성 + Cloud Agent"]
-        W4["Windsurf Pro\nCascade + SWE-1.5"]
-        W5["Kiro Pro\n1,000 크레딧"]
-        W6["Perplexity Pro\n무제한 Pro 쿼리"]
-        W7["Devin Core\nACU 기반 에이전트"]
-        W8["Antigravity\nGoogle AI Pro"]
-    end
+```
+$20/월 격전지 — 8개 도구가 같은 가격에 경쟁
+┌──────────────────┬──────────────────┬──────────────────┬──────────────────┐
+│ ChatGPT Plus     │ Claude Pro       │ Cursor Pro       │ Windsurf Pro     │
+│ GPT-5.2 + Codex  │ Code+Cowork 포함 │ 자동완성+Agent   │ Cascade+SWE-1.5  │
+├──────────────────┼──────────────────┼──────────────────┼──────────────────┤
+│ Kiro Pro         │ Perplexity Pro   │ Devin Core       │ Antigravity      │
+│ 1,000 크레딧     │ 무제한 Pro 쿼리  │ ACU 기반 에이전트 │ Google AI Pro    │
+└──────────────────┴──────────────────┴──────────────────┴──────────────────┘
 ```
 
 ### $100+/월
