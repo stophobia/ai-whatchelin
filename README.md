@@ -713,9 +713,54 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 ---
 
+## Star History
+
+<p align="center">
+  <a href="https://star-history.com/#tykimos/ai-whatchelin&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tykimos/ai-whatchelin&type=Date&theme=dark">
+      <img src="https://api.star-history.com/svg?repos=tykimos/ai-whatchelin&type=Date" alt="Star History Chart" width="600">
+    </picture>
+  </a>
+</p>
+
+---
+
+## Activity
+
+<p align="center">
+  <img src="https://repobeats.axiom.co/api/embed/ai-whatchelin.svg" alt="Repobeats analytics" width="600">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/tykimos/ai-whatchelin?style=for-the-badge&label=마지막_커밋" alt="Last Commit">
+  <img src="https://img.shields.io/github/commit-activity/w/tykimos/ai-whatchelin?style=for-the-badge&label=주간_커밋" alt="Commit Activity">
+  <img src="https://img.shields.io/github/stars/tykimos/ai-whatchelin?style=for-the-badge&label=Stars" alt="Stars">
+  <img src="https://img.shields.io/github/forks/tykimos/ai-whatchelin?style=for-the-badge&label=Forks" alt="Forks">
+  <img src="https://img.shields.io/github/watchers/tykimos/ai-whatchelin?style=for-the-badge&label=Watchers" alt="Watchers">
+</p>
+
+---
+
+## Contributors
+
+<p align="center">
+  <a href="https://github.com/tykimos/ai-whatchelin/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=tykimos/ai-whatchelin" alt="Contributors">
+  </a>
+</p>
+
+<p align="center">
+  <em>기여해주신 모든 분들께 감사합니다!</em>
+</p>
+
+---
+
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.03.24-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.03.25-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>
 
 <p align="center">
