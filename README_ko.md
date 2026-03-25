@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-03-24</sub>
+  <sub>마지막 업데이트: 2026-03-25</sub>
 </p>
 
 <p align="center">
@@ -125,9 +125,10 @@ timeline
     2025 H2 : Antigravity Google 출시
             : Claude Code 에이전트 확립
             : Codex CLI 오픈소스
-    2026 : Cursor $29.3B+
+    2026 : Cursor $50B 협상, Composer 2 Kimi K2.5 논란
          : Windsurf LogRocket 1위
          : Antigravity 쿼터 논란
+         : Sora 셧다운 (3/24)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -193,7 +194,7 @@ flowchart TD
 | 순위 | 도구 | 카테고리 | 근거 |
 |:---:|---|---|---|
 | 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (80.9%), 코드 품질 최강, 67% 블라인드 테스트 승률 |
-| 2 | **[Cursor](https://cursor.com)** | AI IDE | $29.3B 밸류, NVIDIA 4만 엔지니어 사용, 탭 자동완성 최강 |
+| 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B 밸류 협상 중, $2B+ ARR, 탭 자동완성 최강 |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
 | 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | 코딩 에이전트 | 출시 1개월 100만 바이브코더, 안전한 샌드박스, 240+ tok/s |
@@ -313,6 +314,9 @@ quadrantChart
 
 **Antigravity 쿼터 논란** (2026.03):
 > *"1월엔 주당 3억 토큰 썼는데, 지금은 900만 토큰에서 한도 걸린다."* — Google AI for Developers 포럼
+
+**Cursor Composer 2 / Kimi K2.5 스캔들** (2026.03):
+> *"Cursor가 Composer 2를 '자체 개발'이라며 출시했지만, 모델 ID가 kimi-k2p5였다. $50B 기업이 오픈소스 출처를 숨겼다."* — VentureBeat `2026.03.20`
 
 **Trae 프라이버시 경고**:
 > *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
@@ -455,25 +459,25 @@ xychart-beta
 <!-- POPULARITY_CHART_START -->
 ```mermaid
 xychart-beta
-    title "바이브코더 도구 일자별 인기도 (최근 7일)"
-    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24"]
+    title "바이브코더 도구 일자별 인기도 (최근 8일)"
+    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25"]
     y-axis "인기 점수" 50 --> 100
-    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90]
-    line "Cursor" [88, 87, 87, 87, 87, 87, 87]
-    line "Claude Code" [83, 84, 84, 85, 85, 85, 85]
-    line "Windsurf" [73, 74, 74, 75, 75, 75, 75]
-    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72]
-    line "Antigravity" [68, 67, 66, 65, 64, 63, 62]
+    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90, 90]
+    line "Cursor" [88, 87, 87, 87, 87, 87, 87, 86]
+    line "Claude Code" [83, 84, 84, 85, 85, 85, 85, 86]
+    line "Windsurf" [73, 74, 74, 75, 75, 75, 75, 75]
+    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [68, 67, 66, 65, 64, 63, 62, 61]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_GH_Copilot-90-F5A623?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-87-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Claude_Code-85-2ECC71?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-86↓-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-86↑-2ECC71?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-1ABC9C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-62↓-95A5A6?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-61↓-95A5A6?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -543,7 +547,7 @@ flowchart TD
     B1 -->|"저작권 안전"| B1e["Adobe Firefly\n$9.99/월"]
 
     C --> C1{"뭐가 중요해?"}
-    C1 -->|"시네마 리얼리즘"| C1a["Sora\n$20/월"]
+    C1 -->|"시네마 리얼리즘"| C1a["Kling 3.0\n$6.99/월"]
     C1 -->|"편집 스위트"| C1b["Runway\n$12/월"]
     C1 -->|"가성비 최강"| C1c["Kling\n$6.99/월"]
     C1 -->|"오디오 동기화"| C1d["Veo\n$7.99/월"]
@@ -555,7 +559,7 @@ flowchart TD
 | 순위 | 이미지 도구 | 근거 | | 순위 | 비디오 도구 | 근거 |
 |:---:|---|---|---|:---:|---|---|
 | 1 | **[Midjourney](https://www.midjourney.com)** | 예술적 품질 최강, V8 알파 | | 1 | **[Runway](https://runwayml.com)** | Gen-4.5, 풀 편집 스위트 |
-| 2 | **[GPT Image](https://openai.com)** | LM Arena 1위, 프롬프트 정확도 | | 2 | **[Sora](https://openai.com/sora)** | Sora 2, 시네마 리얼리즘 |
+| 2 | **[GPT Image](https://openai.com)** | LM Arena 1위, 프롬프트 정확도 | | 2 | ~~**[Sora](https://openai.com/sora)**~~ | ⚠️ 2026.03.24 서비스 종료 |
 | 3 | **[Flux](https://bfl.ai)** | LM Arena 2위, 오픈소스 | | 3 | **[Kling](https://klingai.com)** | 3.0, $6.99 가성비, 4K 60FPS |
 | 4 | **[Ideogram](https://ideogram.ai)** | 텍스트 렌더링 1위 | | 4 | **[Veo](https://deepmind.google)** | 3.1, 네이티브 오디오 |
 | 5 | **[Adobe Firefly](https://firefly.adobe.com)** | 저작권 안전 | | 5 | **[Luma](https://lumalabs.ai)** | Ray3.14, 4K EXR |
@@ -574,7 +578,7 @@ flowchart TD
 │   └── Google Imagen ··· Google 생태계, 무료(AI Studio)
 │
 └── AI 비디오 생성
-    ├── Sora ············ 시네마 리얼리즘, $20/월~
+    ├── ~~Sora~~ ········· ⚠️ 2026.03.24 서비스 종료
     ├── Runway ··········· 풀 편집 스위트, $12/월~
     ├── Kling ············ 인간 리얼리즘 + 가성비, $6.99/월~
     ├── Veo ·············· 네이티브 오디오, $7.99/월~
@@ -604,16 +608,16 @@ flowchart TD
 
 > 텍스트/이미지로 영상을 만든다. 2026년 가장 빠르게 성장하는 AI 카테고리.
 
-| | Sora | Runway | Kling | Veo | Pika | Luma | HailuoAI |
+| | ~~Sora~~ | Runway | Kling | Veo | Pika | Luma | HailuoAI |
 |---|---|---|---|---|---|---|---|
-| **사이트** | [openai.com/sora](https://openai.com/sora) | [runwayml.com](https://runwayml.com) | [klingai.com](https://klingai.com) | [deepmind.google](https://deepmind.google/technologies/veo) | [pika.art](https://pika.art) | [lumalabs.ai](https://lumalabs.ai) | [hailuoai.video](https://hailuoai.video) |
-| **최신 모델** | Sora 2 | Gen-4.5 | Kling 3.0 | Veo 3.1 | Pika 2.5 | Ray3.14 | Hailuo 2.3 |
-| **무료** | X | O (125 크레딧) | **O (66 크레딧/일)** | O ($7.99) | O (80/월) | O (제한) | X |
-| **시작가** | $20/월 (Plus) | **$12/월** | **$6.99/월** | $7.99/월 | **$10/월** | $30/월 | $14.99/월 |
+| **사이트** | ~~[openai.com/sora](https://openai.com/sora)~~ | [runwayml.com](https://runwayml.com) | [klingai.com](https://klingai.com) | [deepmind.google](https://deepmind.google/technologies/veo) | [pika.art](https://pika.art) | [lumalabs.ai](https://lumalabs.ai) | [hailuoai.video](https://hailuoai.video) |
+| **최신 모델** | **⚠️ 2026.03.24 서비스 종료** | Gen-4.5 | Kling 3.0 | Veo 3.1 | Pika 2.5 | Ray3.14 | Hailuo 2.3 |
+| **무료** | — | O (125 크레딧) | **O (66 크레딧/일)** | O ($7.99) | O (80/월) | O (제한) | X |
+| **시작가** | — | **$12/월** | **$6.99/월** | $7.99/월 | **$10/월** | $30/월 | $14.99/월 |
 | **해상도** | — | 4K | **4K, 60FPS** | 1080p | — | **4K EXR** | — |
-| **오디오** | O | X | **O (동기화)** | **O (네이티브)** | O (자동) | X | X |
-| **킬러 피처** | 시네마 리얼리즘 | 풀 편집 스위트 | 인간 리얼리즘 최강 | 오디오-비디오 동기화 | 물리 효과 프리셋 | VFX 파이프라인, ACES | 가성비 최강 |
-| **대상** | 영상 제작자 | 프로 크리에이터 | 바이브코더, 예산 | Google 사용자 | 소셜 크리에이터 | VFX 아티스트 | 대량 생산 |
+| **오디오** | — | X | **O (동기화)** | **O (네이티브)** | O (자동) | X | X |
+| **킬러 피처** | ~~시네마 리얼리즘~~ | 풀 편집 스위트 | 인간 리얼리즘 최강 | 오디오-비디오 동기화 | 물리 효과 프리셋 | VFX 파이프라인, ACES | 가성비 최강 |
+| **대상** | — | 프로 크리에이터 | 바이브코더, 예산 | Google 사용자 | 소셜 크리에이터 | VFX 아티스트 | 대량 생산 |
 
 
 ### 커뮤니티 반응: 이미지/비디오 AI
@@ -656,7 +660,7 @@ flowchart TD
 | **~$20** | [Runway Standard](https://runwayml.com) | $12/월 | 625 크레딧 |
 | | [HailuoAI](https://hailuoai.video) | $14.99/월 | 1,000 크레딧 |
 | | [Ideogram Plus](https://ideogram.ai) | $15/월 | — |
-| | [Sora](https://openai.com/sora) | $20/월 | ChatGPT Plus |
+| | ~~[Sora](https://openai.com/sora)~~ | ~~$20/월~~ | ⚠️ 2026.03.24 서비스 종료 |
 | **$30+** | [Luma](https://lumalabs.ai) | $30/월 | Ray3.14 |
 | | [Midjourney Pro](https://www.midjourney.com) | $60/월 | ~30 GPU시간 |
 
@@ -678,7 +682,7 @@ flowchart TD
 | **GPT Image** | *"프롬프트 정확도 1위"* |
 | **Stable Diffusion** | *"자유의 왕 (오픈소스)"* |
 | **Ideogram** | *"텍스트 넣으면 이거"* |
-| **Sora** | *"시네마 리얼리즘"* |
+| ~~**Sora**~~ | *"⚠️ 2026.03.24 서비스 종료"* |
 | **Runway** | *"도구가 아니라 스튜디오"* |
 | **Kling** | *"$6.99의 기적"* |
 | **Veo** | *"오디오까지 한 방에"* |
@@ -910,7 +914,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-03-24)
+### 팩트 체크 로그 (2026-03-25)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 

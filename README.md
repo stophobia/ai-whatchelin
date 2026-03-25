@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-03-24</sub>
+  <sub>Last updated: 2026-03-25</sub>
 </p>
 
 <p align="center">
@@ -125,9 +125,10 @@ timeline
     2025 H2 : Antigravity by Google launches
             : Claude Code establishes agentic standard
             : Codex CLI goes open source
-    2026 : Cursor $29.3B+
+    2026 : Cursor $50B talks, Composer 2 Kimi K2.5 scandal
          : Windsurf #1 on LogRocket
          : Antigravity quota controversy
+         : Sora shutdown (Mar 24)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -193,7 +194,7 @@ flowchart TD
 | Rank | Tool | Category | Evidence |
 |:---:|---|---|---|
 | 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (80.9%), best code quality, 67% blind test win rate |
-| 2 | **[Cursor](https://cursor.com)** | AI IDE | $29.3B valuation, 40K NVIDIA engineers, best tab autocomplete |
+| 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B valuation talks, $2B+ ARR, best tab autocomplete |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/Plugin | Most widely adopted AI dev tool, 9+ IDEs, $10/mo lowest price |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 #1, Cascade memory, strong on large codebases |
 | 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | Coding Agent | 1M Vibe Coders in first month, safe sandbox, 240+ tok/s |
@@ -313,6 +314,9 @@ Free            = Gemini CLI + Aider
 
 **Antigravity Quota Controversy** (2026.03):
 > *"In January I used 300M tokens/week; now I'm hitting the cap at 9M."* — Google AI for Developers forum
+
+**Cursor Composer 2 / Kimi K2.5 Scandal** (2026.03):
+> *"Cursor shipped Composer 2 as 'self-developed' but the model ID was kimi-k2p5. $50B company forgot to credit open source."* — VentureBeat `2026.03.20`
 
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
@@ -455,25 +459,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 <!-- POPULARITY_CHART_START -->
 ```mermaid
 xychart-beta
-    title "Vibe Coder Tool Daily Popularity (Last 7 Days)"
-    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24"]
+    title "Vibe Coder Tool Daily Popularity (Last 8 Days)"
+    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25"]
     y-axis "Popularity Score" 50 --> 100
-    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90]
-    line "Cursor" [88, 87, 87, 87, 87, 87, 87]
-    line "Claude Code" [83, 84, 84, 85, 85, 85, 85]
-    line "Windsurf" [73, 74, 74, 75, 75, 75, 75]
-    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72]
-    line "Antigravity" [68, 67, 66, 65, 64, 63, 62]
+    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90, 90]
+    line "Cursor" [88, 87, 87, 87, 87, 87, 87, 86]
+    line "Claude Code" [83, 84, 84, 85, 85, 85, 85, 86]
+    line "Windsurf" [73, 74, 74, 75, 75, 75, 75, 75]
+    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [68, 67, 66, 65, 64, 63, 62, 61]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_GH_Copilot-90-F5A623?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-87-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Claude_Code-85-2ECC71?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-86↓-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-86↑-2ECC71?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-1ABC9C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-62↓-95A5A6?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-61↓-95A5A6?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -543,7 +547,7 @@ flowchart TD
     B1 -->|"Copyright safe"| B1e["Adobe Firefly\n$9.99/mo"]
 
     C --> C1{"What matters most?"}
-    C1 -->|"Cinematic realism"| C1a["Sora\n$20/mo"]
+    C1 -->|"Cinematic realism"| C1a["Kling 3.0\n$6.99/mo"]
     C1 -->|"Editing suite"| C1b["Runway\n$12/mo"]
     C1 -->|"Best value"| C1c["Kling\n$6.99/mo"]
     C1 -->|"Audio sync"| C1d["Veo\n$7.99/mo"]
@@ -555,7 +559,7 @@ flowchart TD
 | Rank | Image Tool | Evidence | | Rank | Video Tool | Evidence |
 |:---:|---|---|---|:---:|---|---|
 | 1 | **[Midjourney](https://www.midjourney.com)** | Best artistic quality, V8 alpha | | 1 | **[Runway](https://runwayml.com)** | Gen-4.5, full editing suite |
-| 2 | **[GPT Image](https://openai.com)** | LM Arena #1, prompt accuracy | | 2 | **[Sora](https://openai.com/sora)** | Sora 2, cinematic realism |
+| 2 | **[GPT Image](https://openai.com)** | LM Arena #1, prompt accuracy | | 2 | ~~**[Sora](https://openai.com/sora)**~~ | ⚠️ Discontinued 2026.03.24 |
 | 3 | **[Flux](https://bfl.ai)** | LM Arena #2, open source | | 3 | **[Kling](https://klingai.com)** | 3.0, $6.99 value, 4K 60FPS |
 | 4 | **[Ideogram](https://ideogram.ai)** | #1 text rendering | | 4 | **[Veo](https://deepmind.google)** | 3.1, native audio |
 | 5 | **[Adobe Firefly](https://firefly.adobe.com)** | Copyright safe | | 5 | **[Luma](https://lumalabs.ai)** | Ray3.14, 4K EXR |
@@ -574,7 +578,7 @@ Creator
 │   └── Google Imagen ··· Google ecosystem, free (AI Studio)
 │
 └── AI Video Generation
-    ├── Sora ············ cinematic realism, $20/mo~
+    ├── ~~Sora~~ ········· ⚠️ discontinued 2026.03.24
     ├── Runway ··········· full editing suite, $12/mo~
     ├── Kling ············ human realism + value, $6.99/mo~
     ├── Veo ·············· native audio, $7.99/mo~
@@ -604,16 +608,16 @@ Creator
 
 > Create videos from text/images. The fastest-growing AI category in 2026.
 
-| | Sora | Runway | Kling | Veo | Pika | Luma | HailuoAI |
+| | ~~Sora~~ | Runway | Kling | Veo | Pika | Luma | HailuoAI |
 |---|---|---|---|---|---|---|---|
-| **Site** | [openai.com/sora](https://openai.com/sora) | [runwayml.com](https://runwayml.com) | [klingai.com](https://klingai.com) | [deepmind.google](https://deepmind.google/technologies/veo) | [pika.art](https://pika.art) | [lumalabs.ai](https://lumalabs.ai) | [hailuoai.video](https://hailuoai.video) |
-| **Latest Model** | Sora 2 | Gen-4.5 | Kling 3.0 | Veo 3.1 | Pika 2.5 | Ray3.14 | Hailuo 2.3 |
-| **Free** | X | O (125 credits) | **O (66 credits/day)** | O ($7.99) | O (80/mo) | O (limited) | X |
-| **Starting Price** | $20/mo (Plus) | **$12/mo** | **$6.99/mo** | $7.99/mo | **$10/mo** | $30/mo | $14.99/mo |
+| **Site** | ~~[openai.com/sora](https://openai.com/sora)~~ | [runwayml.com](https://runwayml.com) | [klingai.com](https://klingai.com) | [deepmind.google](https://deepmind.google/technologies/veo) | [pika.art](https://pika.art) | [lumalabs.ai](https://lumalabs.ai) | [hailuoai.video](https://hailuoai.video) |
+| **Latest Model** | **⚠️ Discontinued 2026.03.24** | Gen-4.5 | Kling 3.0 | Veo 3.1 | Pika 2.5 | Ray3.14 | Hailuo 2.3 |
+| **Free** | — | O (125 credits) | **O (66 credits/day)** | O ($7.99) | O (80/mo) | O (limited) | X |
+| **Starting Price** | — | **$12/mo** | **$6.99/mo** | $7.99/mo | **$10/mo** | $30/mo | $14.99/mo |
 | **Resolution** | — | 4K | **4K, 60FPS** | 1080p | — | **4K EXR** | — |
-| **Audio** | O | X | **O (sync)** | **O (native)** | O (auto) | X | X |
-| **Killer Feature** | cinematic realism | full editing suite | best human realism | audio-video sync | physics effect presets | VFX pipeline, ACES | best bulk value |
-| **Target** | video producers | pro creators | Vibe Coders, budget | Google users | social creators | VFX artists | bulk production |
+| **Audio** | — | X | **O (sync)** | **O (native)** | O (auto) | X | X |
+| **Killer Feature** | ~~cinematic realism~~ | full editing suite | best human realism | audio-video sync | physics effect presets | VFX pipeline, ACES | best bulk value |
+| **Target** | — | pro creators | Vibe Coders, budget | Google users | social creators | VFX artists | bulk production |
 
 
 ### Community Reactions: Image/Video AI
@@ -656,7 +660,7 @@ Creator
 | **~$20** | [Runway Standard](https://runwayml.com) | $12/mo | 625 credits |
 | | [HailuoAI](https://hailuoai.video) | $14.99/mo | 1,000 credits |
 | | [Ideogram Plus](https://ideogram.ai) | $15/mo | — |
-| | [Sora](https://openai.com/sora) | $20/mo | ChatGPT Plus |
+| | ~~[Sora](https://openai.com/sora)~~ | ~~$20/mo~~ | ⚠️ Discontinued 2026.03.24 |
 | **$30+** | [Luma](https://lumalabs.ai) | $30/mo | Ray3.14 |
 | | [Midjourney Pro](https://www.midjourney.com) | $60/mo | ~30 GPU hours |
 
@@ -678,7 +682,7 @@ Creator
 | **GPT Image** | *"#1 prompt accuracy"* |
 | **Stable Diffusion** | *"King of freedom (open source)"* |
 | **Ideogram** | *"For text, use this"* |
-| **Sora** | *"Cinematic realism"* |
+| ~~**Sora**~~ | *"⚠️ Discontinued 2026.03.24"* |
 | **Runway** | *"Not a tool, a studio"* |
 | **Kling** | *"The $6.99 miracle"* |
 | **Veo** | *"Audio and video in one shot"* |
@@ -910,7 +914,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-03-24)
+### Fact Check Log (2026-03-25)
 
 All pricing information has been directly verified from each service's official website.
 
