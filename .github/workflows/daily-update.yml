@@ -2,8 +2,12 @@ name: Daily AI Tool Update
 
 on:
   schedule:
-    # 매일 한국시간 오전 5시 (UTC 20:00 전날)
+    # 한국시간 새벽 5시 (UTC 20:00)
     - cron: '0 20 * * *'
+    # 미국 동부시간 새벽 5시 (UTC 10:00)
+    - cron: '0 10 * * *'
+    # 한국시간 오후 8시 - 이슈 발행용 (UTC 11:00)
+    - cron: '0 11 * * *'
   workflow_dispatch: # 수동 실행도 가능
 
 permissions:
@@ -29,63 +33,121 @@ jobs:
           use_bedrock: false
           use_vertex: false
           prompt: |
-            당신은 "뭐쓸까?" 프로젝트의 자동 업데이트 에이전트입니다.
+            You are the auto-update agent for the "WhatChelin?" project.
 
-            ## 작업 목표
-            AI 코딩 & 생산성 도구의 최신 정보를 검색하여 README.md를 업데이트합니다.
+            ## Task Goal
+            Search for the latest information on AI coding & productivity tools and update both README.md (English) and README_ko.md (Korean).
 
-            ## 수행할 작업
+            ## Current Schedule Context
+            - UTC 20:00 (KST 05:00): Morning update — search for changes and update both READMEs
+            - UTC 10:00 (EST 05:00): Morning update — search for changes and update both READMEs
+            - UTC 11:00 (KST 20:00): Evening run — review both READMEs and publish improvement/error issues
 
-            ### 1. 최신 정보 검색 및 README 업데이트
-            인터넷을 검색하여 다음 도구들의 최신 변경사항을 확인하세요:
-            - 가격 변경, 새 플랜 출시, 플랜 폐지
-            - 새 모델 출시 (GPT, Claude, Gemini 등)
-            - 주요 기능 업데이트
-            - 새로운 AI 코딩 도구 등장
-            - 커뮤니티에서 화제가 된 이슈 (장애, 논란, 전환 등)
+            Detect which schedule triggered this run by checking the current UTC hour:
+            - If UTC hour is 11: this is the KST 20:00 issue-publishing run
+            - Otherwise: this is a regular morning update run
 
-            변경사항이 있으면 README.md의 해당 섹션을 업데이트하세요.
-            변경사항이 없으면 그대로 두세요.
+            ## Tasks to Perform
 
-            ### 2. 인기도 데이터 기록
-            data/popularity.csv에 오늘 날짜의 인기도 점수를 추가하세요.
-            점수 기준 (0~100):
-            - 커뮤니티 언급량, Reddit/HN 화제성
-            - 최근 업데이트 빈도
-            - 개발자 만족도 트렌드
-            - 시장 점유율 변화
+            ### [Morning Update Run — UTC 20:00 or UTC 10:00]
 
-            CSV 형식: date,claude_code,cursor,github_copilot,windsurf,codex_cli,antigravity,gemini_cli,aider,chatgpt,claude_ai
+            #### 1. Search for latest info and update both READMEs
+            Search the internet to check for the latest changes in these tools:
+            - Price changes, new plans launched, plans discontinued
+            - New model releases (GPT, Claude, Gemini, etc.)
+            - Major feature updates
+            - New AI coding tools emerging
+            - Community hot topics (outages, controversies, migrations, etc.)
 
-            ### 3. README에 경쟁 차트 업데이트
-            data/popularity.csv의 최근 14일 데이터를 기반으로,
-            README.md의 POPULARITY_CHART_START와 POPULARITY_CHART_END 사이의 Mermaid xychart를 업데이트하세요.
+            If there are changes, update the relevant sections in both README.md and README_ko.md.
+            If there are no changes, leave them as-is.
 
-            ### 4. 변경사항 커밋
-            변경사항이 있으면 git add와 git commit으로 직접 커밋하세요.
-            커밋 메시지: "auto: 일자별 업데이트 (YYYY-MM-DD)"
+            **Translation rules when updating both files:**
+            - README.md is in English — keep all content in English
+            - README_ko.md is in Korean — keep all content in Korean
+            - "Vibe Coder" in English = "바이브코더" in Korean
+            - "Creator" in English = "크리에이터" in Korean
+            - "General Office" in English = "일반사무" in Korean
+            - "Non-coder" in English = "논코더" in Korean
+            - "WhatChelin" in English = "뭐슐랭" in Korean
+            - Tool names, URLs, badges, and Mermaid charts remain unchanged in both files
+            - Community quotes: use original English in README.md, Korean translation in README_ko.md
 
-            ### 5. 릴리즈 노트 작성 (필수)
-            커밋 후 반드시 gh CLI로 GitHub Release를 생성하세요. 매일 반드시 생성합니다.
-            태그: vYYYY.MM.DD (예: v2026.03.25)
-            제목 형식: "[YYYY-MM-DD] AI 뭐슐랭 데일리 업데이트"
+            #### 2. Record popularity data
+            Add today's popularity scores to data/popularity.csv.
+            Score criteria (0~100):
+            - Community mention volume, Reddit/HN trending
+            - Recent update frequency
+            - Developer satisfaction trend
+            - Market share changes
 
-            릴리즈 본문(한국어)은 아래 순서로 작성하세요:
-            1. 오늘의 인기도 점수 (전날 대비 상승/하락 도구 명시) — 반드시 첫 번째
-            2. 오늘의 주요 변경사항 (변경 없으면 "주요 변경사항 없음") — 두 번째
-            3. 새로 추가된 커뮤니티 반응 (있는 경우)
-            4. 검색한 소스 목록
+            CSV format: date,claude_code,cursor,github_copilot,windsurf,codex_cli,antigravity,gemini_cli,aider,chatgpt,claude_ai
 
-            반드시 아래 명령어로 릴리즈를 생성하세요:
+            #### 3. Update competition chart in both READMEs
+            Based on the last 14 days of data in data/popularity.csv,
+            update the Mermaid xychart between POPULARITY_CHART_START and POPULARITY_CHART_END
+            in both README.md and README_ko.md.
+
+            #### 4. Commit changes
+            If there are changes, commit directly with git add and git commit.
+            Commit message: "auto: daily update (YYYY-MM-DD)"
+
+            #### 5. Write release notes (mandatory)
+            After committing, always create a GitHub Release using the gh CLI. Create one every day without exception.
+            Tag: vYYYY.MM.DD (e.g., v2026.03.25)
+            Title format: "[YYYY-MM-DD] AI WhatChelin Daily Update"
+
+            Release body (in English) in this order:
+            1. Today's popularity scores (note tools that rose/fell vs. yesterday) — must be first
+            2. Today's key changes (if none, write "No major changes") — second
+            3. Newly added community reactions (if any)
+            4. List of sources searched
+
+            Always create the release with:
             ```
-            gh release create v$(date +%Y.%m.%d) --title "[$(date +%Y-%m-%d)] AI 뭐슐랭 데일리 업데이트" --notes "릴리즈 본문 내용"
+            gh release create v$(date +%Y.%m.%d) --title "[$(date +%Y-%m-%d)] AI WhatChelin Daily Update" --notes "release body content"
             ```
 
-            중요: 인기도 CSV 업데이트만 있어도 릴리즈를 생성합니다. 릴리즈 생성을 건너뛰지 마세요.
+            Important: Create the release even if only the popularity CSV was updated. Never skip the release.
 
-            ## 규칙
-            - 기존 README.md의 구조와 스타일을 유지하세요
-            - 팩트 체크 로그의 날짜를 오늘로 업데이트하세요
-            - 커뮤니티 인용문에는 반드시 날짜를 포함하세요
-            - 변경 사항이 없으면 불필요한 수정을 하지 마세요
-            - 한국어로 작성하세요
+            ---
+
+            ### [Issue Publishing Run — UTC 11:00 / KST 20:00]
+
+            #### 1. Review both READMEs
+            Read README.md and README_ko.md carefully and identify:
+            - Factual errors (wrong prices, wrong model names, discontinued tools still listed, etc.)
+            - Consistency issues between English and Korean versions
+            - Missing tools that should be added
+            - Outdated information that needs verification
+            - Structural or formatting improvements
+
+            #### 2. Publish GitHub issues
+            For each problem or improvement found, create a GitHub issue using gh CLI:
+
+            ```
+            gh issue create --title "Issue title" --body "Issue body" --label "bug"
+            ```
+
+            Use appropriate labels:
+            - "bug" for factual errors
+            - "enhancement" for improvements or missing content
+            - "documentation" for formatting/structure issues
+
+            Issue body should include:
+            - Which file(s) are affected (README.md, README_ko.md, or both)
+            - What the current content says
+            - What it should say or what needs to be verified
+            - Suggested fix if applicable
+
+            Create at least 1 issue per run. If nothing is found, create an issue titled
+            "Daily Review: No issues found (YYYY-MM-DD)" to confirm the review was done.
+
+            ---
+
+            ## Rules (apply to all runs)
+            - Maintain the existing structure and style of each README
+            - Update the fact check log date to today
+            - Always include dates in community quotes
+            - Do not make unnecessary edits if there are no changes
+            - README.md must stay in English, README_ko.md must stay in Korean

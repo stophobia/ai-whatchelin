@@ -1,8 +1,12 @@
-# AI 뭐슐랭? — AI 도구 추천비교 가이드
+# AI WhatChelin? — AI Tool Recommendation & Comparison Guide
+
+<p align="right">
+  <b>🇺🇸 English</b> | <a href="README_ko.md">🇰🇷 한국어</a>
+</p>
 
 <p align="center">
-  <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-03-24</sub>
+  <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
+  <sub>Last updated: 2026-03-24</sub>
 </p>
 
 <p align="center">
@@ -45,49 +49,49 @@
 </p>
 
 <p align="center">
-  <em>"도구가 너무 많아서 도구 고르다 하루가 간다" — 2026년 바이브코더의 흔한 하루</em>
+  <em>"So many tools that you spend the whole day just picking one" — A typical day for a Vibe Coder in 2026</em>
 </p>
 
 <table align="center">
 <tr>
 <td align="center">
 
-**매일 새벽 5시, AI가 알아서 업데이트합니다**
+**Updated automatically every morning at 5 AM**
 
-이 문서는 사람이 수동으로 관리하지 않습니다.
-**매일 KST 05:00**, GitHub Actions + Claude Code가 자동으로:
+This document is not maintained manually.
+**Every day at KST 05:00**, GitHub Actions + Claude Code automatically:
 
-`32개 AI 도구` · `14개 공식 사이트` · `Reddit / HN / X 커뮤니티` · `가격 페이지`
+`32 AI tools` · `14 official sites` · `Reddit / HN / X community` · `pricing pages`
 
-를 검색하고, 변경사항을 감지하면 즉시 반영합니다.
-인기도 점수도 매일 기록되어 **일자별 경쟁 차트**가 자동 갱신됩니다.
+searches for changes and reflects them immediately.
+Popularity scores are recorded daily, keeping the **daily competition chart** auto-updated.
 
-<img src="https://img.shields.io/badge/자동_업데이트-매일_05:00_KST-6366f1?style=for-the-badge&logo=github-actions&logoColor=white" alt="Auto Update">
+<img src="https://img.shields.io/badge/Auto_Update-Daily_05:00_KST-6366f1?style=for-the-badge&logo=github-actions&logoColor=white" alt="Auto Update">
 <img src="https://img.shields.io/badge/powered_by-Claude_Code-f59e0b?style=for-the-badge" alt="Claude Code">
-<img src="https://img.shields.io/badge/검색_대상-46+_도구-ec4899?style=for-the-badge" alt="46+ tools">
-<img src="https://img.shields.io/badge/데이터_소스-14+_사이트-10b981?style=for-the-badge" alt="14+ sites">
+<img src="https://img.shields.io/badge/Coverage-46+_Tools-ec4899?style=for-the-badge" alt="46+ tools">
+<img src="https://img.shields.io/badge/Data_Sources-14+_Sites-10b981?style=for-the-badge" alt="14+ sites">
 <br><br>
-<a href="#-바이브코더"><img src="https://img.shields.io/badge/🧑‍💻_바이브코더-코딩_도구_26개-6366f1?style=for-the-badge" alt="바이브코더"></a>
-<a href="#-크리에이터"><img src="https://img.shields.io/badge/🎨_크리에이터-이미지/비디오_14개-8b5cf6?style=for-the-badge" alt="크리에이터"></a>
-<a href="#-일반사무"><img src="https://img.shields.io/badge/💼_일반사무-채팅/업무_8개-3b82f6?style=for-the-badge" alt="일반사무"></a>
+<a href="#-vibe-coder"><img src="https://img.shields.io/badge/🧑‍💻_Vibe_Coder-26_Coding_Tools-6366f1?style=for-the-badge" alt="Vibe Coder"></a>
+<a href="#-creator"><img src="https://img.shields.io/badge/🎨_Creator-14_Image/Video_Tools-8b5cf6?style=for-the-badge" alt="Creator"></a>
+<a href="#-general-office"><img src="https://img.shields.io/badge/💼_General_Office-8_Chat/Work_Tools-3b82f6?style=for-the-badge" alt="General Office"></a>
 <br>
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.03.25-brightgreen?style=for-the-badge" alt="Fact Check">
-<img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
+<img src="https://img.shields.io/badge/Fact_Check-2026.03.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
 </tr>
 </table>
 
-[바이브코더](#-바이브코더) · [크리에이터](#-크리에이터) · [일반사무](#-일반사무) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [인기도 트렌드](#-일자별-인기도-트렌드)
+[Vibe Coder](#-vibe-coder) · [Creator](#-creator) · [General Office](#-general-office) · [Pricing Radar](#vibe-coder-pricing-radar) · [Community Comparison](#vibe-coder-community-reactions-comparison) · [Popularity Trend](#vibe-coder-popularity-trend)
 
 ---
 
-# 바이브코더
+# Vibe Coder
 
-> 코드를 짜고, 앱을 만들고, 자동화하는 바이브코더를 위한 AI 도구들.
+> AI tools for Vibe Coders who write code, build apps, and automate tasks.
 
 <p align="center">
   <a href="https://code.claude.com"><img src="https://img.shields.io/badge/Claude_Code-d97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" height="24"></a>
@@ -107,147 +111,147 @@
   <a href="https://www.tabnine.com"><img src="https://img.shields.io/badge/Tabnine-4a154b?style=for-the-badge" alt="Tabnine" height="24"></a>
 </p>
 
-### 바이브코더 진화 타임라인
+### Vibe Coder Evolution Timeline
 
 ```mermaid
 timeline
-    title 바이브코더 도구 진화
-    2023 : GitHub Copilot 대중화
-         : Cursor 등장
-    2024 : Windsurf Codeium 출시
-         : Aider 성장
-    2025 H1 : Kiro AWS 프리뷰
-            : Trae ByteDance 출시
-    2025 H2 : Antigravity Google 출시
-            : Claude Code 에이전트 확립
-            : Codex CLI 오픈소스
+    title Vibe Coder Tool Evolution
+    2023 : GitHub Copilot goes mainstream
+         : Cursor emerges
+    2024 : Windsurf by Codeium launches
+         : Aider grows
+    2025 H1 : Kiro AWS preview
+            : Trae by ByteDance launches
+    2025 H2 : Antigravity by Google launches
+            : Claude Code establishes agentic standard
+            : Codex CLI goes open source
     2026 : Cursor $29.3B+
-         : Windsurf LogRocket 1위
-         : Antigravity 쿼터 논란
+         : Windsurf #1 on LogRocket
+         : Antigravity quota controversy
 ```
 
-### 바이브코더들이 실제로 쓰는 조합
+### Tool Combinations Vibe Coders Actually Use
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#6366f1', 'pie2': '#3b82f6', 'pie3': '#10b981', 'pie4': '#f59e0b', 'pie5': '#ec4899', 'pie6': '#8b5cf6', 'pieTitleTextColor': '#888', 'pieSectionTextColor': '#fff', 'pieLegendTextColor': '#888', 'pieOuterStrokeColor': '#555'}}}%%
-pie title "2026 바이브코더 도구 조합"
+pie title "2026 Vibe Coder Tool Combinations"
     "Cursor + Claude Code" : 35
     "Windsurf + Codex CLI" : 20
-    "GitHub Copilot 단독" : 15
-    "Aider + 로컬 LLM" : 10
+    "GitHub Copilot solo" : 15
+    "Aider + Local LLM" : 10
     "Antigravity" : 8
-    "기타 조합" : 12
+    "Other combos" : 12
 ```
 
-> *"Cursor는 최고의 AI 에디터. Claude Code는 최고의 AI 엔지니어. Windsurf는 최고의 가성비."*
+> *"Cursor is the best AI editor. Claude Code is the best AI engineer. Windsurf is the best value."*
 
-### 나한테 맞는 코딩 도구는?
+### Which Coding Tool Is Right for Me?
 
 ```mermaid
 flowchart TD
-    A{"코드를 짜고 싶다"} --> B{"어디서 작업해?"}
+    A{"I want to write code"} --> B{"Where do you work?"}
 
-    B --> C["터미널 CLI"]
-    B --> D["새 에디터 IDE"]
-    B --> E["기존 IDE에 플러그인"]
+    B --> C["Terminal CLI"]
+    B --> D["New Editor IDE"]
+    B --> E["Plugin for existing IDE"]
 
-    C --> C1{"뭐가 중요해?"}
-    C1 -->|"아키텍처/리팩토링"| CC["Claude Code\n$20/월"]
-    C1 -->|"빠른 실행/샌드박스"| CX["Codex CLI\n$20/월"]
-    C1 -->|"무료로 시작"| CG["Gemini CLI\n무료!"]
-    C1 -->|"오픈소스/내 모델"| CA["Aider\n$0"]
+    C --> C1{"What matters most?"}
+    C1 -->|"Architecture/Refactoring"| CC["Claude Code\n$20/mo"]
+    C1 -->|"Fast execution/Sandbox"| CX["Codex CLI\n$20/mo"]
+    C1 -->|"Start for free"| CG["Gemini CLI\nFree!"]
+    C1 -->|"Open source/own model"| CA["Aider\n$0"]
 
-    D --> D1{"뭐가 중요해?"}
-    D1 -->|"탭 자동완성 최강"| DC["Cursor\n$20/월"]
-    D1 -->|"대규모 코드베이스"| DW["Windsurf\n$20/월"]
-    D1 -->|"멀티에이전트+브라우저"| DA["Antigravity\n$20/월"]
-    D1 -->|"설계서 먼저 코드 나중"| DK["Kiro\n$20/월"]
-    D1 -->|"최저가"| DT["Trae\n$3/월~"]
+    D --> D1{"What matters most?"}
+    D1 -->|"Best tab autocomplete"| DC["Cursor\n$20/mo"]
+    D1 -->|"Large codebase"| DW["Windsurf\n$20/mo"]
+    D1 -->|"Multi-agent+browser"| DA["Antigravity\n$20/mo"]
+    D1 -->|"Spec first, code later"| DK["Kiro\n$20/mo"]
+    D1 -->|"Lowest price"| DT["Trae\n$3/mo~"]
 
-    E --> E1{"뭐가 중요해?"}
-    E1 -->|"9+ IDE 지원"| EG["GitHub Copilot\n$10/월"]
-    E1 -->|"보안/에어갭 필수"| ET["Tabnine\n$39/user/월"]
-    E1 -->|"AWS 기반 개발"| EA["Amazon Q\n$19/user/월"]
+    E --> E1{"What matters most?"}
+    E1 -->|"9+ IDE support"| EG["GitHub Copilot\n$10/mo"]
+    E1 -->|"Security/air-gap required"| ET["Tabnine\n$39/user/mo"]
+    E1 -->|"AWS-based development"| EA["Amazon Q\n$19/user/mo"]
 ```
 
 ```mermaid
 flowchart TD
-    A{"앱을 만들고 싶다"} --> B{"코딩 경험은?"}
+    A{"I want to build an app"} --> B{"Coding experience?"}
 
-    B -->|"있다"| C{"뭘 만들어?"}
-    B -->|"없다"| D{"뭘 만들어?"}
+    B -->|"Yes"| C{"What are you building?"}
+    B -->|"No"| D{"What are you building?"}
 
-    C -->|"풀스택 앱"| C1["Bolt.new $25/월\nReplit Agent $17/월"]
-    C -->|"프론트 UI"| C2["v0.app $30/월"]
+    C -->|"Full-stack app"| C1["Bolt.new $25/mo\nReplit Agent $17/mo"]
+    C -->|"Frontend UI"| C2["v0.app $30/mo"]
 
-    D -->|"풀스택 앱"| D1["Lovable $25/월\nReplit Agent $17/월"]
-    D -->|"UI 컴포넌트"| D2["v0.app $30/월"]
+    D -->|"Full-stack app"| D1["Lovable $25/mo\nReplit Agent $17/mo"]
+    D -->|"UI components"| D2["v0.app $30/mo"]
 ```
 
-### 바이브코더 인기 순위
+### Vibe Coder Popularity Ranking
 
-| 순위 | 도구 | 카테고리 | 근거 |
+| Rank | Tool | Category | Evidence |
 |:---:|---|---|---|
-| 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (80.9%), 코드 품질 최강, 67% 블라인드 테스트 승률 |
-| 2 | **[Cursor](https://cursor.com)** | AI IDE | $29.3B 밸류, NVIDIA 4만 엔지니어 사용, 탭 자동완성 최강 |
-| 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
-| 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
-| 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | 코딩 에이전트 | 출시 1개월 100만 바이브코더, 안전한 샌드박스, 240+ tok/s |
+| 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (80.9%), best code quality, 67% blind test win rate |
+| 2 | **[Cursor](https://cursor.com)** | AI IDE | $29.3B valuation, 40K NVIDIA engineers, best tab autocomplete |
+| 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/Plugin | Most widely adopted AI dev tool, 9+ IDEs, $10/mo lowest price |
+| 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 #1, Cascade memory, strong on large codebases |
+| 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | Coding Agent | 1M Vibe Coders in first month, safe sandbox, 240+ tok/s |
 
-### 바이브코더 전체 지도
+### Vibe Coder Full Map
 
 ```
-바이브코더
-├── 코딩 에이전트 (CLI)
-│   ├── Claude Code ····· Anthropic, SWE-bench 1위, $20/월~
-│   ├── Codex CLI ······· OpenAI, 샌드박스, $20/월~
-│   ├── Gemini CLI ······ Google, 무료 1,000 req/일
-│   └── Aider ··········· 오픈소스, 모든 LLM, $0
+Vibe Coder
+├── Coding Agents (CLI)
+│   ├── Claude Code ····· Anthropic, SWE-bench #1, $20/mo~
+│   ├── Codex CLI ······· OpenAI, sandbox, $20/mo~
+│   ├── Gemini CLI ······ Google, free 1,000 req/day
+│   └── Aider ··········· open source, any LLM, $0
 │
 ├── AI IDE
-│   ├── Cursor ·········· 탭 자동완성 최강, $0~200/월
-│   ├── Windsurf ········ Cascade 메모리, $0~200/월
-│   ├── Antigravity ····· Google, 멀티에이전트, $0~250/월
-│   ├── Kiro ············ AWS, Spec 기반, $0~200/월
-│   ├── Trae ············ ByteDance, 최저가, $0~100/월
-│   └── GitHub Copilot ·· 9+ IDE, $0~39/user/월
+│   ├── Cursor ·········· best tab autocomplete, $0~200/mo
+│   ├── Windsurf ········ Cascade memory, $0~200/mo
+│   ├── Antigravity ····· Google, multi-agent, $0~250/mo
+│   ├── Kiro ············ AWS, Spec-based, $0~200/mo
+│   ├── Trae ············ ByteDance, lowest price, $0~100/mo
+│   └── GitHub Copilot ·· 9+ IDEs, $0~39/user/mo
 │
-├── 코드 어시스턴트
-│   ├── Amp (구 Cody) ··· Enterprise 전용
-│   ├── Tabnine ········· 에어갭 배포, $39/user/월~
-│   └── Amazon Q ········ AWS 네이티브, $0~19/user/월
+├── Code Assistants
+│   ├── Amp (ex-Cody) ··· Enterprise only
+│   ├── Tabnine ········· air-gap deploy, $39/user/mo~
+│   └── Amazon Q ········ AWS native, $0~19/user/mo
 │
-├── 앱 빌더
-│   ├── Bolt.new ········ 브라우저 IDE, $0~25/월
-│   ├── v0.app ·········· Vercel 통합, $0~100/user/월
-│   ├── Lovable ········· 논코더 친화, $0~50/월
-│   └── Replit Agent ···· 올인원 배포, $0~95/월
+├── App Builders
+│   ├── Bolt.new ········ browser IDE, $0~25/mo
+│   ├── v0.app ·········· Vercel integration, $0~100/user/mo
+│   ├── Lovable ········· Non-coder friendly, $0~50/mo
+│   └── Replit Agent ···· all-in-one deploy, $0~95/mo
 │
-└── 오픈소스
-    ├── OpenClaw ········· 333K Stars, 범용 AI
-    ├── OpenCode ········· 95K Stars, 터미널 에이전트
-    ├── Cline ············ 59K Stars, VS Code 에이전트
+└── Open Source
+    ├── OpenClaw ········· 333K Stars, general AI
+    ├── OpenCode ········· 95K Stars, terminal agent
+    ├── Cline ············ 59K Stars, VS Code agent
     ├── Aider ············ 42K Stars, Git-first
-    ├── Tabby ············ 33K Stars, 온프레미스
-    ├── Continue.dev ····· 32K Stars, CI/CD 통합
-    └── Goose ············ 29K Stars, Block 제작
+    ├── Tabby ············ 33K Stars, on-premise
+    ├── Continue.dev ····· 32K Stars, CI/CD integration
+    └── Goose ············ 29K Stars, made by Block
 ```
 
 ---
 
-## 코딩 에이전트 (CLI)
+## Coding Agents (CLI)
 
-> 터미널에서 코드베이스를 직접 읽고, 자율적으로 코드를 고친다. 2026년 가장 뜨거운 카테고리.
+> Reads your codebase directly from the terminal and autonomously edits code. The hottest category in 2026.
 
 ```mermaid
 quadrantChart
-    title 코딩 에이전트 포지셔닝
-    x-axis "저비용" --> "고비용"
-    y-axis "단순 실행" --> "자율 추론"
-    quadrant-1 "파워 에이전트"
-    quadrant-2 "스마트 무료"
-    quadrant-3 "가벼운 무료"
-    quadrant-4 "실행 특화"
+    title Coding Agent Positioning
+    x-axis "Low Cost" --> "High Cost"
+    y-axis "Simple Execution" --> "Autonomous Reasoning"
+    quadrant-1 "Power Agents"
+    quadrant-2 "Smart & Free"
+    quadrant-3 "Lightweight Free"
+    quadrant-4 "Execution Focused"
     Claude Code: [0.65, 0.90]
     Codex CLI: [0.60, 0.55]
     Gemini CLI: [0.15, 0.60]
@@ -256,30 +260,30 @@ quadrantChart
 
 | | Claude Code | Codex CLI | Gemini CLI | Aider |
 |---|---|---|---|---|
-| **사이트** | [code.claude.com](https://code.claude.com) | [openai.com/codex](https://developers.openai.com/codex/cli) | [gemini-cli](https://github.com/google-gemini/gemini-cli) | [aider.chat](https://aider.chat) |
-| **오픈소스** | X | O (Rust) | O (Apache 2.0) | O (Apache 2.0) |
-| **무료** | X | X | **1,000 req/일** | **O (API만)** |
-| **시작가** | $20/월 | $20/월 | $0 | $0 |
-| **모델** | Anthropic만 | OpenAI만 | Gemini만 | **모든 LLM** |
-| **컨텍스트** | 200K+ | GPT-5 | **1M** | 모델별 |
-| **샌드박스** | X | **O** | X | X |
-| **멀티에이전트** | **O** | O | X | X |
+| **Site** | [code.claude.com](https://code.claude.com) | [openai.com/codex](https://developers.openai.com/codex/cli) | [gemini-cli](https://github.com/google-gemini/gemini-cli) | [aider.chat](https://aider.chat) |
+| **Open Source** | X | O (Rust) | O (Apache 2.0) | O (Apache 2.0) |
+| **Free** | X | X | **1,000 req/day** | **O (API cost only)** |
+| **Starting Price** | $20/mo | $20/mo | $0 | $0 |
+| **Model** | Anthropic only | OpenAI only | Gemini only | **Any LLM** |
+| **Context** | 200K+ | GPT-5 | **1M** | per model |
+| **Sandbox** | X | **O** | X | X |
+| **Multi-agent** | **O** | O | X | X |
 | **MCP** | **300+** | O | O | X |
-| **Git** | O | 부분적 | 부분적 | **네이티브** |
+| **Git** | O | partial | partial | **native** |
 
-### 커뮤니티가 말하는 CLI 에이전트
+### What the Community Says About CLI Agents
 
-> *"Claude Code는 생각하는 작업에, Codex는 실행하는 작업에."* — r/ChatGPTCoding 500+ 바이브코더 설문
+> *"Claude Code for thinking tasks, Codex for execution tasks."* — r/ChatGPTCoding survey of 500+ Vibe Coders
 
-> *"$20 Plus 플랜으로 하루종일 코딩해도 한도에 걸린 적 없다."* — Reddit u/LaCaipirinha (31 upvotes)
+> *"I've been coding all day on the $20 Plus plan and never hit a limit."* — Reddit u/LaCaipirinha (31 upvotes)
 
-> *"한 번 복잡한 프롬프트 날리면 5시간 한도의 50~70%가 날아간다."* — r/ChatGPTCoding (388 upvotes)
+> *"One complex prompt burns 50–70% of the 5-hour limit."* — r/ChatGPTCoding (388 upvotes)
 
-**2026 파워 스택 공식**:
+**2026 Power Stack Formula**:
 ```
-일상 코딩 = Codex CLI (키스트로크 레벨)
-커밋/아키텍처 = Claude Code (사고 레벨)
-무료 = Gemini CLI + Aider
+Daily coding    = Codex CLI (keystroke level)
+Commit/Arch     = Claude Code (thinking level)
+Free            = Gemini CLI + Aider
 ```
 
 
@@ -288,85 +292,85 @@ quadrantChart
 
 ## AI IDE
 
-> 에디터 자체에 AI가 통합. 자동완성부터 멀티파일 에이전트까지.
+> AI integrated into the editor itself. From autocomplete to multi-file agents.
 
 | | Cursor | Windsurf | Antigravity | Kiro | Trae | GH Copilot |
 |---|---|---|---|---|---|---|
-| **제공사** | Cursor Inc. | Cognition AI | Google DeepMind | AWS | ByteDance | GitHub |
-| **사이트** | [cursor.com](https://cursor.com) | [windsurf.com](https://windsurf.com) | [antigravity.google](https://antigravity.google) | [kiro.dev](https://kiro.dev) | [trae.ai](https://www.trae.ai) | [github.com](https://github.com/features/copilot) |
-| **무료** | O | O | O (프리뷰) | O (50 cr) | **O (강력)** | O (2K/월) |
-| **시작가** | $20/월 | $20/월 | $20/월 (AI Pro) | $20/월 | **$3/월** | **$10/월** |
-| **최고가** | $200/월 | $200/월 | $249.99/월 | $200/월 | $100/월 | $39/user/월 |
-| **모델** | Multi | Multi+SWE-1.5 | Gemini+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
-| **킬러 피처** | Autonomy Slider | Cascade 메모리 | Manager View | Spec 기반 EARS | 최저가 | 9+ IDE |
+| **Provider** | Cursor Inc. | Cognition AI | Google DeepMind | AWS | ByteDance | GitHub |
+| **Site** | [cursor.com](https://cursor.com) | [windsurf.com](https://windsurf.com) | [antigravity.google](https://antigravity.google) | [kiro.dev](https://kiro.dev) | [trae.ai](https://www.trae.ai) | [github.com](https://github.com/features/copilot) |
+| **Free** | O | O | O (preview) | O (50 cr) | **O (generous)** | O (2K/mo) |
+| **Starting Price** | $20/mo | $20/mo | $20/mo (AI Pro) | $20/mo | **$3/mo** | **$10/mo** |
+| **Max Price** | $200/mo | $200/mo | $249.99/mo | $200/mo | $100/mo | $39/user/mo |
+| **Model** | Multi | Multi+SWE-1.5 | Gemini+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
+| **Killer Feature** | Autonomy Slider | Cascade memory | Manager View | Spec-based EARS | Lowest price | 9+ IDEs |
 
 
-### 커뮤니티 반응: IDE 전쟁
+### Community Reactions: IDE War
 
-> *"Cursor: 더 비싸게, 덜 주고, 어떻게 작동하는지 묻지 마."* — r/programming
+> *"Cursor: charge more, give less, don't ask how it works."* — r/programming
 
-> *"Windsurf는 50만 줄 모노레포에서 컨텍스트를 더 잘 잡고 에러가 적었다."* — r/ChatGPTCoding
+> *"Windsurf held context better and had fewer errors on a 500K-line monorepo."* — r/ChatGPTCoding
 
-**Antigravity 쿼터 논란** (2026.03):
-> *"1월엔 주당 3억 토큰 썼는데, 지금은 900만 토큰에서 한도 걸린다."* — Google AI for Developers 포럼
+**Antigravity Quota Controversy** (2026.03):
+> *"In January I used 300M tokens/week; now I'm hitting the cap at 9M."* — Google AI for Developers forum
 
-**Trae 프라이버시 경고**:
-> *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
+**Trae Privacy Warning**:
+> *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
 
 
 
 ---
 
-## 코드 어시스턴트 (플러그인)
+## Code Assistants (Plugins)
 
-> 기존 IDE(VS Code, JetBrains 등)에 플러그인으로 추가하는 AI 도구.
+> AI tools added as plugins to your existing IDE (VS Code, JetBrains, etc.).
 
-| | Amp (구 Cody) | Tabnine | Amazon Q Developer |
+| | Amp (ex-Cody) | Tabnine | Amazon Q Developer |
 |---|---|---|---|
-| **제공사** | Sourcegraph | Tabnine | AWS |
-| **사이트** | [ampcode.com](https://ampcode.com) | [tabnine.com](https://www.tabnine.com) | [aws.amazon.com/q](https://aws.amazon.com/q/developer) |
-| **무료** | **X (Enterprise만)** | **X (2025 종료)** | O (50 req/월) |
-| **시작가** | Enterprise 문의 | $39/user/월 (연간) | $19/user/월 |
-| **에어갭** | O | **O** | X |
-| **대상** | 대규모 모노레포 | 금융/의료/국방 | AWS 기반 팀 |
-| **주의** | Cody Free/Pro 2025.07 폐지 | 무료 플랜 없음 | Pro 아니면 한도 적음 |
+| **Provider** | Sourcegraph | Tabnine | AWS |
+| **Site** | [ampcode.com](https://ampcode.com) | [tabnine.com](https://www.tabnine.com) | [aws.amazon.com/q](https://aws.amazon.com/q/developer) |
+| **Free** | **X (Enterprise only)** | **X (ended 2025)** | O (50 req/mo) |
+| **Starting Price** | Enterprise inquiry | $39/user/mo (annual) | $19/user/mo |
+| **Air-gap** | O | **O** | X |
+| **Target** | Large monorepos | Finance/Medical/Defense | AWS-based teams |
+| **Note** | Cody Free/Pro discontinued Jul 2025 | No free plan | Limited without Pro |
 
 ---
 
-## 앱 빌더
+## App Builders
 
-> 코딩 없이(또는 최소한으로) 앱을 만들고 배포까지. "바이브 코딩"의 본거지.
+> Build and deploy apps with no coding (or minimal). The home of "vibe coding".
 
 | | Bolt.new | v0.app | Lovable | Replit Agent |
 |---|---|---|---|---|
-| **사이트** | [bolt.new](https://bolt.new) | [v0.app](https://v0.app) | [lovable.dev](https://lovable.dev) | [replit.com](https://replit.com) |
-| **무료** | O (1M 토큰) | O ($5 크레딧) | O (일 5 크레딧) | O (체험) |
-| **시작가** | $25/월 | $30/user/월 | $25/월 | $17/월 |
-| **배포** | Netlify | **Vercel** | 내장 | **내장+호스팅** |
+| **Site** | [bolt.new](https://bolt.new) | [v0.app](https://v0.app) | [lovable.dev](https://lovable.dev) | [replit.com](https://replit.com) |
+| **Free** | O (1M tokens) | O ($5 credits) | O (5 credits/day) | O (trial) |
+| **Starting Price** | $25/mo | $30/user/mo | $25/mo | $17/mo |
+| **Deploy** | Netlify | **Vercel** | built-in | **built-in+hosting** |
 | **DB** | Bolt Cloud | X | Supabase | PostgreSQL |
-| **디자인** | Figma | Design Mode | Chat Mode | Design Canvas |
-| **협업** | O | O | **20명 실시간** | 15명 |
+| **Design** | Figma | Design Mode | Chat Mode | Design Canvas |
+| **Collaboration** | O | O | **20 users realtime** | 15 users |
 
 
-### 커뮤니티 반응: 앱 빌더
+### Community Reactions: App Builders
 
-> *"v0은 UI에, Bolt는 풀스택 속도에, Lovable은 DB 필요한 초보자에."*
+> *"v0 for UI, Bolt for full-stack speed, Lovable for beginners who need a DB."*
 
-> *"버그 하나 고치면 새 버그 셋이 생기고 월 크레딧이 디버깅 한 세션에 증발한다."* — Lovable 사용자 공통 불만
+> *"Fix one bug, get three new ones, and a whole month of credits gone in one debug session."* — common Lovable user complaint
 
-**보안 주의**: 세 플랫폼 모두 생성 코드의 **40~45%에 취약점** 포함 (NxCode 2026 분석). 어떤 빌더를 쓰든 보안 리뷰 필수.
+**Security Warning**: All three platforms have **40–45% vulnerability rate** in generated code (NxCode 2026 analysis). A security review is mandatory regardless of which builder you use.
 
 
 
 ---
 
-## 오픈소스
+## Open Source
 
-> 무료. 내 모델. 내 서버. 내 데이터. 자유의 땅.
+> Free. Your model. Your server. Your data. The land of freedom.
 
 ```mermaid
 xychart-beta
-    title "오픈소스 AI 코딩 도구 GitHub Stars (K)"
+    title "Open Source AI Coding Tools GitHub Stars (K)"
     x-axis ["OpenClaw", "OpenCode", "Cline", "Aider", "Tabby", "Continue", "Goose"]
     y-axis "Stars (K)" 0 --> 350
     bar [333, 95, 59.3, 42.3, 33, 32, 29.4]
@@ -375,85 +379,85 @@ xychart-beta
 | | OpenClaw | OpenCode | Cline | Aider | Tabby | Continue | Goose |
 |---|---|---|---|---|---|---|---|
 | **Stars** | **333K** | 95K+ | 59.3K | 42.3K | 33K | 32K | 29.4K |
-| **라이선스** | MIT | OSS | Apache 2.0 | Apache 2.0 | — | Apache 2.0 | Apache 2.0 |
-| **유형** | 범용 AI | 터미널 에이전트 | VS Code 에이전트 | CLI 에이전트 | 코드 완성 | IDE+CI | 자율 에이전트 |
-| **모델** | 다중 | 75+ | 다중+Ollama | **모든 LLM** | 로컬 전용 | 모든 모델 | 모든 LLM |
-| **킬러 피처** | 50+ 메신저, 5400 Skills | TUI, LSP, 세션 공유 | 5M+ 설치 | Git-first | 코드 외부 전송 0% | CI/CD 통합 | Block 제작, MCP |
+| **License** | MIT | OSS | Apache 2.0 | Apache 2.0 | — | Apache 2.0 | Apache 2.0 |
+| **Type** | General AI | Terminal agent | VS Code agent | CLI agent | Code completion | IDE+CI | Autonomous agent |
+| **Model** | Multi | 75+ | Multi+Ollama | **Any LLM** | Local only | Any model | Any LLM |
+| **Killer Feature** | 50+ messengers, 5400 Skills | TUI, LSP, session sharing | 5M+ installs | Git-first | 0% external code transfer | CI/CD integration | Block-made, MCP |
 
 ---
 
-## 바이브코더 가격 레이더
+## Vibe Coder Pricing Radar
 
-| 구간 | 도구 | 가격 | 포함 내용 |
+| Tier | Tool | Price | Includes |
 |---|---|---|---|
-| **무료** | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | $0 | 1,000 req/일 |
-| | [Aider](https://aider.chat) | $0 | API 비용만 |
-| | [GitHub Copilot](https://github.com/features/copilot) | $0 | 2,000 완성 + 50 프리미엄/월 |
-| | [Trae](https://www.trae.ai) | $0 | $3 상당 + 5,000 자동완성 |
-| | [Antigravity](https://antigravity.google) | $0 | 프리뷰 무료 |
-| **~$10** | [Trae Lite](https://www.trae.ai) | $3/월 | $5 상당 사용량 |
-| | [GitHub Copilot Pro](https://github.com/features/copilot) | $10/월 | 무제한 자동완성 + 에이전트 |
-| | [Trae Pro](https://www.trae.ai) | $10/월 | 무제한 자동완성 + $20 상당 |
-| **$20** | [Claude Pro](https://claude.com) | $20/월 | Claude Code + Cowork 포함 |
-| | [Cursor Pro](https://cursor.com) | $20/월 | 자동완성 + Cloud Agent |
-| | [Windsurf Pro](https://windsurf.com) | $20/월 | Cascade + SWE-1.5 |
-| | [Kiro Pro](https://kiro.dev) | $20/월 | 1,000 크레딧 |
-| | [Devin Core](https://devin.ai) | $20/월 | ACU 기반 에이전트 |
-| **$100+** | [Claude Max](https://claude.com) | $100~200/월 | 5x~20x Pro |
-| | [Cursor Ultra](https://cursor.com) | $200/월 | 20x 사용량 |
-| | [Windsurf Max](https://windsurf.com) | $200/월 | 대용량 할당 |
+| **Free** | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | $0 | 1,000 req/day |
+| | [Aider](https://aider.chat) | $0 | API cost only |
+| | [GitHub Copilot](https://github.com/features/copilot) | $0 | 2,000 completions + 50 premium/mo |
+| | [Trae](https://www.trae.ai) | $0 | $3 worth + 5,000 autocomplete |
+| | [Antigravity](https://antigravity.google) | $0 | preview free |
+| **~$10** | [Trae Lite](https://www.trae.ai) | $3/mo | $5 worth usage |
+| | [GitHub Copilot Pro](https://github.com/features/copilot) | $10/mo | unlimited autocomplete + agent |
+| | [Trae Pro](https://www.trae.ai) | $10/mo | unlimited autocomplete + $20 worth |
+| **$20** | [Claude Pro](https://claude.com) | $20/mo | Claude Code + Cowork included |
+| | [Cursor Pro](https://cursor.com) | $20/mo | autocomplete + Cloud Agent |
+| | [Windsurf Pro](https://windsurf.com) | $20/mo | Cascade + SWE-1.5 |
+| | [Kiro Pro](https://kiro.dev) | $20/mo | 1,000 credits |
+| | [Devin Core](https://devin.ai) | $20/mo | ACU-based agent |
+| **$100+** | [Claude Max](https://claude.com) | $100~200/mo | 5x~20x Pro |
+| | [Cursor Ultra](https://cursor.com) | $200/mo | 20x usage |
+| | [Windsurf Max](https://windsurf.com) | $200/mo | large allocation |
 
-### 바이브코더 커뮤니티 반응 (비교 중심)
+### Vibe Coder Community Reactions (Comparison)
 
-> *"Cursor는 이미 아는 걸 더 빠르게 해준다. 가속기다. Claude Code는 대신 해준다. 위임자다."* — Builder.io `2026.01`
+> *"Cursor makes what you already know faster. It's an accelerator. Claude Code does it for you. It's a delegator."* — Builder.io `2026.01`
 
-> *"$20 Plus 플랜으로 하루종일 코딩해도 한도에 걸린 적 없다."* — Reddit u/LaCaipirinha `2026.01`
+> *"I've been coding all day on the $20 Plus plan and never hit a limit."* — Reddit u/LaCaipirinha `2026.01`
 
-> *"한 번 복잡한 프롬프트 날리면 5시간 한도의 50~70%가 날아간다."* — r/ClaudeAI (388 upvotes) `2026.02`
+> *"One complex prompt burns 50–70% of the 5-hour limit."* — r/ClaudeAI (388 upvotes) `2026.02`
 
-| 매치업 | 승자 (상황별) |
+| Matchup | Winner (by situation) |
 |---|---|
-| **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
-| **Claude Code vs Cursor** | 인라인 편집 = Cursor, 자율 멀티파일 = Claude Code |
-| **Cursor vs Windsurf** | 대규모 코드베이스 = Windsurf, 리팩토링 = Cursor |
-| **Cursor vs Antigravity** | 안전성/프로덕션 = Cursor, 자율 실행 = Antigravity |
-| **Windsurf vs Antigravity** | 모델 일관성 = Windsurf, 무료 = Antigravity |
-| **Gemini CLI vs Claude Code** | 품질/속도 = Claude Code, 무료 = Gemini CLI |
-| **GitHub Copilot vs Cursor** | VSCode 일상 = Copilot, 대규모 에이전트 = Cursor |
-| **Trae vs Cursor** | 무료 프로토타입 = Trae, 프로덕션 = Cursor |
-| **Bolt vs Lovable vs v0** | UI = v0, 풀스택 = Bolt, 논코더 = Lovable |
+| **Claude Code vs Codex CLI** | follow plans/debug = Claude Code, no limits = Codex CLI |
+| **Claude Code vs Cursor** | inline editing = Cursor, autonomous multi-file = Claude Code |
+| **Cursor vs Windsurf** | large codebase = Windsurf, refactoring = Cursor |
+| **Cursor vs Antigravity** | safety/production = Cursor, autonomous execution = Antigravity |
+| **Windsurf vs Antigravity** | model consistency = Windsurf, free = Antigravity |
+| **Gemini CLI vs Claude Code** | quality/speed = Claude Code, free = Gemini CLI |
+| **GitHub Copilot vs Cursor** | everyday VSCode = Copilot, large-scale agent = Cursor |
+| **Trae vs Cursor** | free prototyping = Trae, production = Cursor |
+| **Bolt vs Lovable vs v0** | UI = v0, full-stack = Bolt, Non-coder = Lovable |
 
-### 바이브코더 한 줄 평
+### Vibe Coder One-Liner Reviews
 
-| 도구 | 한마디 |
+| Tool | In a word |
 |---|---|
-| **Cursor** | *"최고의 AI 에디터"* |
-| **Claude Code** | *"최고의 AI 엔지니어"* |
-| **Windsurf** | *"최고의 가성비"* |
-| **Codex CLI** | *"가장 안전한 실행기"* |
-| **Gemini CLI** | *"무료의 왕"* |
-| **Antigravity** | *"$24억짜리 베이트 앤 스위치"* |
-| **Trae** | *"공짜 치곤 너무 좋은데... 대가가 뭐지?"* |
-| **Aider** | *"자유의 상징"* |
+| **Cursor** | *"The best AI editor"* |
+| **Claude Code** | *"The best AI engineer"* |
+| **Windsurf** | *"The best value"* |
+| **Codex CLI** | *"The safest executor"* |
+| **Gemini CLI** | *"King of free"* |
+| **Antigravity** | *"$2.4B bait-and-switch"* |
+| **Trae** | *"Too good to be free... what's the catch?"* |
+| **Aider** | *"The symbol of freedom"* |
 
-### 바이브코더 추천 스택
+### Vibe Coder Recommended Stacks
 
 ```
-시니어 바이브코더 = Cursor (일상) + Claude Code (아키텍처) = $40/월
-가성비 바이브코더 = Windsurf + Gemini CLI              = $20/월
-오픈소스 매니아  = Aider + Ollama                     = $0/월
-스타트업 MVP    = Lovable or Bolt.new                = $25/월
-기업 보안팀     = Tabnine + Amazon Q                  = $58/user/월
+Senior Vibe Coder  = Cursor (daily) + Claude Code (architecture) = $40/mo
+Budget Vibe Coder  = Windsurf + Gemini CLI                       = $20/mo
+Open Source Fan    = Aider + Ollama                              = $0/mo
+Startup MVP        = Lovable or Bolt.new                         = $25/mo
+Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```
 
-### 바이브코더 인기도 트렌드
+### Vibe Coder Popularity Trend
 
 <!-- POPULARITY_CHART_START -->
 ```mermaid
 xychart-beta
-    title "바이브코더 도구 일자별 인기도 (최근 7일)"
+    title "Vibe Coder Tool Daily Popularity (Last 7 Days)"
     x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24"]
-    y-axis "인기 점수" 50 --> 100
+    y-axis "Popularity Score" 50 --> 100
     line "GH Copilot" [90, 90, 90, 89, 90, 90, 90]
     line "Cursor" [88, 87, 87, 87, 87, 87, 87]
     line "Claude Code" [83, 84, 84, 85, 85, 85, 85]
@@ -477,9 +481,9 @@ xychart-beta
 
 ---
 
-# 크리에이터
+# Creator
 
-> 이미지와 비디오를 만드는 크리에이터를 위한 AI 도구들.
+> AI tools for Creators who make images and videos.
 
 <p align="center">
   <a href="https://www.midjourney.com"><img src="https://img.shields.io/badge/Midjourney-000000?style=for-the-badge" alt="Midjourney" height="24"></a>
@@ -498,194 +502,194 @@ xychart-beta
   <a href="https://hailuoai.video"><img src="https://img.shields.io/badge/HailuoAI-06b6d4?style=for-the-badge" alt="HailuoAI" height="24"></a>
 </p>
 
-### 크리에이터 진화 타임라인
+### Creator Evolution Timeline
 
 ```mermaid
 timeline
-    title 크리에이터 도구 진화
-    2022 : Stable Diffusion 오픈소스 공개
+    title Creator Tool Evolution
+    2022 : Stable Diffusion open source release
          : Midjourney V3~V4
          : DALL-E 2
     2023 : Midjourney V5
          : Runway Gen-1/Gen-2
-         : Pika 출시
-    2024 : Sora 발표 (OpenAI)
+         : Pika launches
+    2024 : Sora announced (OpenAI)
          : Midjourney V6
-         : Flux 1.0 출시
-         : Kling 1.0 출시
-    2025 : Sora 2 출시
+         : Flux 1.0 launches
+         : Kling 1.0 launches
+    2025 : Sora 2 launches
          : Runway Gen-4
          : Kling 2.0 $240M ARR
-         : Veo 3 네이티브 오디오
+         : Veo 3 native audio
          : Luma Ray2~Ray3
-    2026 : Midjourney V7 V8알파
-         : GPT Image 1.5 LM Arena 1위
+    2026 : Midjourney V7 V8 alpha
+         : GPT Image 1.5 LM Arena #1
          : Kling 3.0 4K 60FPS
-         : Runway Gen-4.5 벤치마크 1위
+         : Runway Gen-4.5 benchmark #1
 ```
 
-### 나한테 맞는 크리에이터 도구는?
+### Which Creator Tool Is Right for Me?
 
 ```mermaid
 flowchart TD
-    A{"뭘 만들고 싶어?"} --> B["이미지"]
-    A --> C["비디오"]
+    A{"What do you want to make?"} --> B["Image"]
+    A --> C["Video"]
 
-    B --> B1{"뭐가 중요해?"}
-    B1 -->|"예술적 품질"| B1a["Midjourney\n$10/월"]
-    B1 -->|"프롬프트 정확도"| B1b["GPT Image\n$20/월"]
-    B1 -->|"무료/오픈소스"| B1c["Stable Diffusion\n$0"]
-    B1 -->|"텍스트 렌더링"| B1d["Ideogram\n$15/월"]
-    B1 -->|"저작권 안전"| B1e["Adobe Firefly\n$9.99/월"]
+    B --> B1{"What matters most?"}
+    B1 -->|"Artistic quality"| B1a["Midjourney\n$10/mo"]
+    B1 -->|"Prompt accuracy"| B1b["GPT Image\n$20/mo"]
+    B1 -->|"Free/Open source"| B1c["Stable Diffusion\n$0"]
+    B1 -->|"Text rendering"| B1d["Ideogram\n$15/mo"]
+    B1 -->|"Copyright safe"| B1e["Adobe Firefly\n$9.99/mo"]
 
-    C --> C1{"뭐가 중요해?"}
-    C1 -->|"시네마 리얼리즘"| C1a["Sora\n$20/월"]
-    C1 -->|"편집 스위트"| C1b["Runway\n$12/월"]
-    C1 -->|"가성비 최강"| C1c["Kling\n$6.99/월"]
-    C1 -->|"오디오 동기화"| C1d["Veo\n$7.99/월"]
-    C1 -->|"VFX 파이프라인"| C1e["Luma\n$30/월"]
+    C --> C1{"What matters most?"}
+    C1 -->|"Cinematic realism"| C1a["Sora\n$20/mo"]
+    C1 -->|"Editing suite"| C1b["Runway\n$12/mo"]
+    C1 -->|"Best value"| C1c["Kling\n$6.99/mo"]
+    C1 -->|"Audio sync"| C1d["Veo\n$7.99/mo"]
+    C1 -->|"VFX pipeline"| C1e["Luma\n$30/mo"]
 ```
 
-### 크리에이터 인기 순위
+### Creator Popularity Ranking
 
-| 순위 | 이미지 도구 | 근거 | | 순위 | 비디오 도구 | 근거 |
+| Rank | Image Tool | Evidence | | Rank | Video Tool | Evidence |
 |:---:|---|---|---|:---:|---|---|
-| 1 | **[Midjourney](https://www.midjourney.com)** | 예술적 품질 최강, V8 알파 | | 1 | **[Runway](https://runwayml.com)** | Gen-4.5, 풀 편집 스위트 |
-| 2 | **[GPT Image](https://openai.com)** | LM Arena 1위, 프롬프트 정확도 | | 2 | **[Sora](https://openai.com/sora)** | Sora 2, 시네마 리얼리즘 |
-| 3 | **[Flux](https://bfl.ai)** | LM Arena 2위, 오픈소스 | | 3 | **[Kling](https://klingai.com)** | 3.0, $6.99 가성비, 4K 60FPS |
-| 4 | **[Ideogram](https://ideogram.ai)** | 텍스트 렌더링 1위 | | 4 | **[Veo](https://deepmind.google)** | 3.1, 네이티브 오디오 |
-| 5 | **[Adobe Firefly](https://firefly.adobe.com)** | 저작권 안전 | | 5 | **[Luma](https://lumalabs.ai)** | Ray3.14, 4K EXR |
+| 1 | **[Midjourney](https://www.midjourney.com)** | Best artistic quality, V8 alpha | | 1 | **[Runway](https://runwayml.com)** | Gen-4.5, full editing suite |
+| 2 | **[GPT Image](https://openai.com)** | LM Arena #1, prompt accuracy | | 2 | **[Sora](https://openai.com/sora)** | Sora 2, cinematic realism |
+| 3 | **[Flux](https://bfl.ai)** | LM Arena #2, open source | | 3 | **[Kling](https://klingai.com)** | 3.0, $6.99 value, 4K 60FPS |
+| 4 | **[Ideogram](https://ideogram.ai)** | #1 text rendering | | 4 | **[Veo](https://deepmind.google)** | 3.1, native audio |
+| 5 | **[Adobe Firefly](https://firefly.adobe.com)** | Copyright safe | | 5 | **[Luma](https://lumalabs.ai)** | Ray3.14, 4K EXR |
 
-### 크리에이터 전체 지도
+### Creator Full Map
 
 ```
-크리에이터
-├── AI 이미지 생성
-│   ├── Midjourney ······ 예술적 품질 최강, $10/월~
-│   ├── GPT Image ······· 프롬프트 정확도 1위, $20/월~
-│   ├── Stable Diffusion · 오픈소스, 무료 셀프호스팅
-│   ├── Ideogram ········ 텍스트 렌더링 최강, $15/월~
-│   ├── Flux ············ 포토리얼리즘, $0.04/장
-│   ├── Adobe Firefly ··· 저작권 안전, $9.99/월~
-│   └── Google Imagen ··· Google 생태계, 무료(AI Studio)
+Creator
+├── AI Image Generation
+│   ├── Midjourney ······ best artistic quality, $10/mo~
+│   ├── GPT Image ······· #1 prompt accuracy, $20/mo~
+│   ├── Stable Diffusion · open source, free self-hosting
+│   ├── Ideogram ········ best text rendering, $15/mo~
+│   ├── Flux ············ photorealism, $0.04/image
+│   ├── Adobe Firefly ··· copyright safe, $9.99/mo~
+│   └── Google Imagen ··· Google ecosystem, free (AI Studio)
 │
-└── AI 비디오 생성
-    ├── Sora ············ 시네마 리얼리즘, $20/월~
-    ├── Runway ··········· 풀 편집 스위트, $12/월~
-    ├── Kling ············ 인간 리얼리즘 + 가성비, $6.99/월~
-    ├── Veo ·············· 네이티브 오디오, $7.99/월~
-    ├── Pika ············· 물리 효과 프리셋, $10/월~
-    ├── Luma ············· VFX 파이프라인, $30/월~
-    └── HailuoAI ········· 대량 생산 가성비, $14.99/월~
+└── AI Video Generation
+    ├── Sora ············ cinematic realism, $20/mo~
+    ├── Runway ··········· full editing suite, $12/mo~
+    ├── Kling ············ human realism + value, $6.99/mo~
+    ├── Veo ·············· native audio, $7.99/mo~
+    ├── Pika ············· physics effect presets, $10/mo~
+    ├── Luma ············· VFX pipeline, $30/mo~
+    └── HailuoAI ········· bulk production value, $14.99/mo~
 ```
 
 ---
 
-## AI 이미지 생성
+## AI Image Generation
 
-> 텍스트로 이미지를 만든다. 디자이너 없이도 프로급 비주얼.
+> Create images from text. Pro-level visuals without a designer.
 
 | | Midjourney | GPT Image | Stable Diffusion | Ideogram | Flux | Adobe Firefly | Google Imagen |
 |---|---|---|---|---|---|---|---|
-| **사이트** | [midjourney.com](https://www.midjourney.com) | [openai.com](https://openai.com) | [stability.ai](https://stability.ai) | [ideogram.ai](https://ideogram.ai) | [bfl.ai](https://bfl.ai) | [firefly.adobe.com](https://firefly.adobe.com) | [ai.google.dev](https://ai.google.dev) |
-| **최신 모델** | V7 (V8 알파) | GPT Image 1.5 | SD 3.5 Large | Ideogram 3.0 | FLUX.1.1 Pro | Firefly 2026 | Imagen 4 Ultra |
-| **무료** | X | ChatGPT 포함 | **O (자체 호스팅)** | O (제한) | O (Schnell, Apache 2.0) | X | **O (AI Studio)** |
-| **시작가** | $10/월 | $20/월 (Plus) | $0 (셀프호스팅) | $15/월 | $0.04/장 | $9.99/월 | $0.02/장 |
-| **킬러 피처** | 예술적 품질 최강 | 프롬프트 정확도 1위 | 오픈소스, 커스텀 학습 | **텍스트 렌더링 최강** | 포토리얼리즘 | 저작권 안전, Adobe 통합 | Google 생태계, SynthID |
-| **대상** | 크리에이터, 아티스트 | ChatGPT 사용자 | 기술 사용자, 커스텀 | 디자이너, 타이포그래피 | 바이브코더, API | 기업, 브랜드 | Google 사용자 |
+| **Site** | [midjourney.com](https://www.midjourney.com) | [openai.com](https://openai.com) | [stability.ai](https://stability.ai) | [ideogram.ai](https://ideogram.ai) | [bfl.ai](https://bfl.ai) | [firefly.adobe.com](https://firefly.adobe.com) | [ai.google.dev](https://ai.google.dev) |
+| **Latest Model** | V7 (V8 alpha) | GPT Image 1.5 | SD 3.5 Large | Ideogram 3.0 | FLUX.1.1 Pro | Firefly 2026 | Imagen 4 Ultra |
+| **Free** | X | ChatGPT included | **O (self-hosting)** | O (limited) | O (Schnell, Apache 2.0) | X | **O (AI Studio)** |
+| **Starting Price** | $10/mo | $20/mo (Plus) | $0 (self-hosting) | $15/mo | $0.04/image | $9.99/mo | $0.02/image |
+| **Killer Feature** | Best artistic quality | #1 prompt accuracy | open source, custom training | **best text rendering** | photorealism | copyright safe, Adobe integration | Google ecosystem, SynthID |
+| **Target** | Creators, artists | ChatGPT users | tech users, custom | designers, typography | Vibe Coders, API | enterprises, brands | Google users |
 
 ---
 
-## AI 비디오 생성
+## AI Video Generation
 
-> 텍스트/이미지로 영상을 만든다. 2026년 가장 빠르게 성장하는 AI 카테고리.
+> Create videos from text/images. The fastest-growing AI category in 2026.
 
 | | Sora | Runway | Kling | Veo | Pika | Luma | HailuoAI |
 |---|---|---|---|---|---|---|---|
-| **사이트** | [openai.com/sora](https://openai.com/sora) | [runwayml.com](https://runwayml.com) | [klingai.com](https://klingai.com) | [deepmind.google](https://deepmind.google/technologies/veo) | [pika.art](https://pika.art) | [lumalabs.ai](https://lumalabs.ai) | [hailuoai.video](https://hailuoai.video) |
-| **최신 모델** | Sora 2 | Gen-4.5 | Kling 3.0 | Veo 3.1 | Pika 2.5 | Ray3.14 | Hailuo 2.3 |
-| **무료** | X | O (125 크레딧) | **O (66 크레딧/일)** | O ($7.99) | O (80/월) | O (제한) | X |
-| **시작가** | $20/월 (Plus) | **$12/월** | **$6.99/월** | $7.99/월 | **$10/월** | $30/월 | $14.99/월 |
-| **해상도** | — | 4K | **4K, 60FPS** | 1080p | — | **4K EXR** | — |
-| **오디오** | O | X | **O (동기화)** | **O (네이티브)** | O (자동) | X | X |
-| **킬러 피처** | 시네마 리얼리즘 | 풀 편집 스위트 | 인간 리얼리즘 최강 | 오디오-비디오 동기화 | 물리 효과 프리셋 | VFX 파이프라인, ACES | 가성비 최강 |
-| **대상** | 영상 제작자 | 프로 크리에이터 | 바이브코더, 예산 | Google 사용자 | 소셜 크리에이터 | VFX 아티스트 | 대량 생산 |
+| **Site** | [openai.com/sora](https://openai.com/sora) | [runwayml.com](https://runwayml.com) | [klingai.com](https://klingai.com) | [deepmind.google](https://deepmind.google/technologies/veo) | [pika.art](https://pika.art) | [lumalabs.ai](https://lumalabs.ai) | [hailuoai.video](https://hailuoai.video) |
+| **Latest Model** | Sora 2 | Gen-4.5 | Kling 3.0 | Veo 3.1 | Pika 2.5 | Ray3.14 | Hailuo 2.3 |
+| **Free** | X | O (125 credits) | **O (66 credits/day)** | O ($7.99) | O (80/mo) | O (limited) | X |
+| **Starting Price** | $20/mo (Plus) | **$12/mo** | **$6.99/mo** | $7.99/mo | **$10/mo** | $30/mo | $14.99/mo |
+| **Resolution** | — | 4K | **4K, 60FPS** | 1080p | — | **4K EXR** | — |
+| **Audio** | O | X | **O (sync)** | **O (native)** | O (auto) | X | X |
+| **Killer Feature** | cinematic realism | full editing suite | best human realism | audio-video sync | physics effect presets | VFX pipeline, ACES | best bulk value |
+| **Target** | video producers | pro creators | Vibe Coders, budget | Google users | social creators | VFX artists | bulk production |
 
 
-### 커뮤니티 반응: 이미지/비디오 AI
+### Community Reactions: Image/Video AI
 
-> *"Midjourney는 여전히 예술적 품질의 왕. DALL-E는 정확도의 왕. Stable Diffusion은 자유의 왕."*
+> *"Midjourney is still the king of artistic quality. DALL-E is the king of accuracy. Stable Diffusion is the king of freedom."*
 
-> *"Kling 3.0이 $6.99에 이 퀄리티를 주는 게 말이 되나? Sora는 $20인데."* `2026.02`
+> *"How does Kling 3.0 give this quality for $6.99? Sora costs $20."* `2026.02`
 
-> *"Runway Gen-4.5는 도구가 아니라 스튜디오다. 생성만 하는 다른 도구와 차원이 다르다."* `2026.03`
+> *"Runway Gen-4.5 is not a tool, it's a studio. It's on a different level from other generation-only tools."* `2026.03`
 
-> *"Veo 3.1의 네이티브 오디오 동기화는 게임 체인저. 별도 음향 작업이 필요 없다."* `2026.03`
-
-
+> *"Veo 3.1's native audio sync is a game changer. No separate audio work needed."* `2026.03`
 
 
-## 크리에이터 오픈소스
 
-> 무료. 내 모델. 내 서버. 내 데이터. 자유의 땅.
+
+## Creator Open Source
+
+> Free. Your model. Your server. Your data. The land of freedom.
 
 | | Stable Diffusion | ComfyUI | Flux Schnell |
 |---|---|---|---|
 | **Stars** | — | 70K+ | — |
-| **라이선스** | Community | GPL 3.0 | Apache 2.0 |
-| **유형** | 이미지 생성 | 워크플로우 UI | 이미지 생성 |
-| **킬러 피처** | 완전 로컬, LoRA/ControlNet | 노드 기반 워크플로우 | 상용 무료 Apache 2.0 |
+| **License** | Community | GPL 3.0 | Apache 2.0 |
+| **Type** | Image generation | Workflow UI | Image generation |
+| **Killer Feature** | fully local, LoRA/ControlNet | node-based workflow | commercial-free Apache 2.0 |
 
 ---
 
-## 크리에이터 가격 레이더
+## Creator Pricing Radar
 
-| 구간 | 도구 | 가격 | 포함 내용 |
+| Tier | Tool | Price | Includes |
 |---|---|---|---|
-| **무료** | [Stable Diffusion](https://stability.ai) | $0 | 셀프호스팅 |
+| **Free** | [Stable Diffusion](https://stability.ai) | $0 | self-hosting |
 | | [Google Imagen](https://ai.google.dev) | $0 | AI Studio |
-| | [Kling](https://klingai.com) | $0 | 66 크레딧/일 |
-| | [Pika](https://pika.art) | $0 | 80/월 |
-| **~$10** | [Adobe Firefly](https://firefly.adobe.com) | $9.99/월 | 2,000 크레딧 |
-| | [Midjourney](https://www.midjourney.com) | $10/월 | ~3.3 GPU시간 |
-| | [Pika Standard](https://pika.art) | $10/월 | 700 크레딧 |
-| **~$20** | [Runway Standard](https://runwayml.com) | $12/월 | 625 크레딧 |
-| | [HailuoAI](https://hailuoai.video) | $14.99/월 | 1,000 크레딧 |
-| | [Ideogram Plus](https://ideogram.ai) | $15/월 | — |
-| | [Sora](https://openai.com/sora) | $20/월 | ChatGPT Plus |
-| **$30+** | [Luma](https://lumalabs.ai) | $30/월 | Ray3.14 |
-| | [Midjourney Pro](https://www.midjourney.com) | $60/월 | ~30 GPU시간 |
+| | [Kling](https://klingai.com) | $0 | 66 credits/day |
+| | [Pika](https://pika.art) | $0 | 80/mo |
+| **~$10** | [Adobe Firefly](https://firefly.adobe.com) | $9.99/mo | 2,000 credits |
+| | [Midjourney](https://www.midjourney.com) | $10/mo | ~3.3 GPU hours |
+| | [Pika Standard](https://pika.art) | $10/mo | 700 credits |
+| **~$20** | [Runway Standard](https://runwayml.com) | $12/mo | 625 credits |
+| | [HailuoAI](https://hailuoai.video) | $14.99/mo | 1,000 credits |
+| | [Ideogram Plus](https://ideogram.ai) | $15/mo | — |
+| | [Sora](https://openai.com/sora) | $20/mo | ChatGPT Plus |
+| **$30+** | [Luma](https://lumalabs.ai) | $30/mo | Ray3.14 |
+| | [Midjourney Pro](https://www.midjourney.com) | $60/mo | ~30 GPU hours |
 
-### 크리에이터 커뮤니티 반응
+### Creator Community Reactions
 
-> *"Midjourney는 여전히 예술적 품질의 왕. DALL-E는 정확도의 왕. Stable Diffusion은 자유의 왕."*
+> *"Midjourney is still the king of artistic quality. DALL-E is the king of accuracy. Stable Diffusion is the king of freedom."*
 
-> *"Kling 3.0이 $6.99에 이 퀄리티를 주는 게 말이 되나? Sora는 $20인데."* `2026.02`
+> *"How does Kling 3.0 give this quality for $6.99? Sora costs $20."* `2026.02`
 
-> *"Runway Gen-4.5는 도구가 아니라 스튜디오다. 생성만 하는 다른 도구와 차원이 다르다."* `2026.03`
+> *"Runway Gen-4.5 is not a tool, it's a studio. It's on a different level from other generation-only tools."* `2026.03`
 
-> *"Veo 3.1의 네이티브 오디오 동기화는 게임 체인저. 별도 음향 작업이 필요 없다."* `2026.03`
+> *"Veo 3.1's native audio sync is a game changer. No separate audio work needed."* `2026.03`
 
-### 크리에이터 한 줄 평
+### Creator One-Liner Reviews
 
-| 도구 | 한마디 |
+| Tool | In a word |
 |---|---|
-| **Midjourney** | *"예술적 품질의 왕"* |
-| **GPT Image** | *"프롬프트 정확도 1위"* |
-| **Stable Diffusion** | *"자유의 왕 (오픈소스)"* |
-| **Ideogram** | *"텍스트 넣으면 이거"* |
-| **Sora** | *"시네마 리얼리즘"* |
-| **Runway** | *"도구가 아니라 스튜디오"* |
-| **Kling** | *"$6.99의 기적"* |
-| **Veo** | *"오디오까지 한 방에"* |
+| **Midjourney** | *"King of artistic quality"* |
+| **GPT Image** | *"#1 prompt accuracy"* |
+| **Stable Diffusion** | *"King of freedom (open source)"* |
+| **Ideogram** | *"For text, use this"* |
+| **Sora** | *"Cinematic realism"* |
+| **Runway** | *"Not a tool, a studio"* |
+| **Kling** | *"The $6.99 miracle"* |
+| **Veo** | *"Audio and video in one shot"* |
 
-### 크리에이터 추천 스택
+### Creator Recommended Stacks
 
 ```
-포스터 디자인   = Midjourney + Ideogram        = $25/월
-숏폼 영상      = Kling + Pika                 = $17/월~
-영화급 제작    = Runway + Luma                = $42/월
-오픈소스 매니아 = Stable Diffusion + ComfyUI   = $0/월
+Poster design      = Midjourney + Ideogram        = $25/mo
+Short-form video   = Kling + Pika                 = $17/mo~
+Film-grade prod.   = Runway + Luma                = $42/mo
+Open source fan    = Stable Diffusion + ComfyUI   = $0/mo
 ```
 
 
@@ -694,9 +698,9 @@ flowchart TD
 
 ---
 
-# 일반사무
+# General Office
 
-> 질문하고, 검색하고, 문서 정리하고, 업무를 자동화하는 오피스 워커를 위한 AI 도구들.
+> AI tools for office workers who ask questions, search, organize documents, and automate tasks.
 
 <p align="center">
   <a href="https://chatgpt.com"><img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" height="24"></a>
@@ -709,223 +713,223 @@ flowchart TD
   <a href="https://devin.ai"><img src="https://img.shields.io/badge/Devin-6366f1?style=for-the-badge" alt="Devin" height="24"></a>
 </p>
 
-### 일반사무 진화 타임라인
+### General Office Evolution Timeline
 
 ```mermaid
 timeline
-    title 일반사무 AI 도구 진화
-    2022 : ChatGPT 출시 (GPT-3.5)
-    2023 : GPT-4 출시
-         : Claude 2 출시
-         : Bard (Gemini 전신) 출시
+    title General Office AI Tool Evolution
+    2022 : ChatGPT launches (GPT-3.5)
+    2023 : GPT-4 launches
+         : Claude 2 launches
+         : Bard (Gemini predecessor) launches
     2024 : Claude 3 Opus
-         : Gemini 1.5 Pro 1M 컨텍스트
-         : Perplexity Pro 검색+인용
-         : Grok 2 출시
-    2025 : GPT-5 출시
-         : Claude 4 시리즈
-         : Gemini 3 출시
-         : Copilot MS M365 통합
-         : Devin 2.0 $500에서 $20
-    2026 : GPT-5.4 + SuperApp 발표
-         : Claude Opus 4.6 + Cowork 출시
-         : Grok 4.20 2M 컨텍스트
-         : Perplexity Computer 에이전트
+         : Gemini 1.5 Pro 1M context
+         : Perplexity Pro search+citation
+         : Grok 2 launches
+    2025 : GPT-5 launches
+         : Claude 4 series
+         : Gemini 3 launches
+         : Copilot MS M365 integration
+         : Devin 2.0 $500 → $20
+    2026 : GPT-5.4 + SuperApp announced
+         : Claude Opus 4.6 + Cowork launches
+         : Grok 4.20 2M context
+         : Perplexity Computer agent
 ```
 
-### 나한테 맞는 일반사무 도구는?
+### Which General Office Tool Is Right for Me?
 
 ```mermaid
 flowchart TD
-    A{"뭘 하고 싶어?"} --> B["AI한테 물어보기"]
-    A --> C["업무 자동화"]
+    A{"What do you want to do?"} --> B["Ask AI"]
+    A --> C["Automate work"]
 
-    B --> B1{"뭐가 중요해?"}
-    B1 -->|"코드 품질 최고"| B1a["Claude.ai\n$20/월"]
-    B1 -->|"만능 + 범용"| B1b["ChatGPT $8~20/월\nGemini $20/월"]
-    B1 -->|"최신 정보 검색"| B1c["Perplexity\n$20/월"]
-    B1 -->|"초대형 컨텍스트"| B1d["Grok\n$30/월 2M"]
-    B1 -->|"M365 통합"| B1e["Copilot MS\n$18/월"]
+    B --> B1{"What matters most?"}
+    B1 -->|"Best code quality"| B1a["Claude.ai\n$20/mo"]
+    B1 -->|"All-purpose + versatile"| B1b["ChatGPT $8~20/mo\nGemini $20/mo"]
+    B1 -->|"Latest info search"| B1c["Perplexity\n$20/mo"]
+    B1 -->|"Huge context"| B1d["Grok\n$30/mo 2M"]
+    B1 -->|"M365 integration"| B1e["Copilot MS\n$18/mo"]
 
-    C --> C1{"누구야?"}
-    C1 -->|"바이브코더"| C1a["Devin\n$20/월~ ACU"]
-    C1 -->|"논코더"| C1b["Claude Cowork\n$20/월 Pro"]
+    C --> C1{"Who are you?"}
+    C1 -->|"Vibe Coder"| C1a["Devin\n$20/mo~ ACU"]
+    C1 -->|"Non-coder"| C1b["Claude Cowork\n$20/mo Pro"]
 ```
 
-### 일반사무 인기 순위
+### General Office Popularity Ranking
 
-| 순위 | 도구 | 근거 |
+| Rank | Tool | Evidence |
 |:---:|---|---|
-| 1 | **[ChatGPT](https://chatgpt.com)** | 주간 9억 사용자, 유료 5천만 명, SuperApp 발표 |
-| 2 | **[Claude.ai](https://claude.com)** | 1M 컨텍스트, Extended Thinking, 코딩 품질 1위 |
-| 3 | **[Gemini](https://gemini.google.com)** | 시장 점유율 5.4%→18.2% 급성장, 영상/이미지 생성 |
-| 4 | **[Perplexity](https://www.perplexity.ai)** | 검색+인용 통합의 유일무이, Computer 에이전트 |
-| 5 | **[Grok](https://x.ai)** | 2M 컨텍스트 (업계 최대), X 실시간 데이터 |
+| 1 | **[ChatGPT](https://chatgpt.com)** | 900M weekly users, 50M paid, SuperApp announced |
+| 2 | **[Claude.ai](https://claude.com)** | 1M context, Extended Thinking, #1 coding quality |
+| 3 | **[Gemini](https://gemini.google.com)** | market share surge 5.4%→18.2%, video/image generation |
+| 4 | **[Perplexity](https://www.perplexity.ai)** | unique search+citation integration, Computer agent |
+| 5 | **[Grok](https://x.ai)** | 2M context (industry max), X real-time data |
 
-### 일반사무 전체 지도
+### General Office Full Map
 
 ```
-일반사무
-├── 채팅 AI
-│   ├── ChatGPT ········· OpenAI, GPT-5.4, $0~200/월
-│   ├── Claude.ai ······· Anthropic, Opus 4.6, $0~200/월
-│   ├── Gemini ·········· Google, 3.1 Pro, $0~250/월
-│   ├── Copilot (MS) ···· Microsoft, M365 통합, $0~30/월
-│   ├── Grok ············ xAI, 2M 컨텍스트, $0~30/월
-│   └── Perplexity ······ 검색+인용, $0~325/월
+General Office
+├── Chat AI
+│   ├── ChatGPT ········· OpenAI, GPT-5.4, $0~200/mo
+│   ├── Claude.ai ······· Anthropic, Opus 4.6, $0~200/mo
+│   ├── Gemini ·········· Google, 3.1 Pro, $0~250/mo
+│   ├── Copilot (MS) ···· Microsoft, M365 integration, $0~30/mo
+│   ├── Grok ············ xAI, 2M context, $0~30/mo
+│   └── Perplexity ······ search+citation, $0~325/mo
 │
-└── 자율 에이전트
-    ├── Claude Cowork ··· 논코더 업무, $20/월~
-    └── Devin ··········· 자율 코딩, $20/월~
+└── Autonomous Agents
+    ├── Claude Cowork ··· Non-coder tasks, $20/mo~
+    └── Devin ··········· autonomous coding, $20/mo~
 ```
 
 ---
 
-## 채팅 AI
+## Chat AI
 
-> 웹/앱에서 대화하며 질문, 코드 생성, 디버깅. 가장 접근성 높은 AI 도구.
+> Chat via web/app to ask questions, generate code, debug. The most accessible AI tools.
 
 | | ChatGPT | Claude.ai | Gemini | Copilot (MS) | Grok | Perplexity |
 |---|---|---|---|---|---|---|
-| **제공사** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
-| **사이트** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **최신 모델** | GPT-5.4 | Claude Opus 4.6 | Gemini 3.1 Pro | GPT-5.4 + Claude | Grok 4.20 | Sonar Pro |
-| **무료** | O | O | O | O | O | O |
-| **시작가** | $8/월 (Go) | $20/월 (Pro) | $19.99/월 | $18/월 | $30/월 | $20/월 |
-| **최고가** | $200/월 (Pro) | $200/월 (Max) | $249.99/월 (Ultra) | $30/월 | $30/월 | $325/seat/월 |
-| **컨텍스트** | 128K | **1M** | 1M | — | **2M** | 모델별 |
-| **킬러 피처** | Canvas + Codex | Extended Thinking | 영상/이미지 생성 | M365 통합 | X 실시간 데이터 | 검색+인용 |
+| **Provider** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
+| **Site** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
+| **Latest Model** | GPT-5.4 | Claude Opus 4.6 | Gemini 3.1 Pro | GPT-5.4 + Claude | Grok 4.20 | Sonar Pro |
+| **Free** | O | O | O | O | O | O |
+| **Starting Price** | $8/mo (Go) | $20/mo (Pro) | $19.99/mo | $18/mo | $30/mo | $20/mo |
+| **Max Price** | $200/mo (Pro) | $200/mo (Max) | $249.99/mo (Ultra) | $30/mo | $30/mo | $325/seat/mo |
+| **Context** | 128K | **1M** | 1M | — | **2M** | per model |
+| **Killer Feature** | Canvas + Codex | Extended Thinking | video/image gen | M365 integration | X real-time data | search+citation |
 
-> *"ChatGPT는 만능 스위스 나이프, Claude는 장인의 메스, Gemini는 Google 생태계의 열쇠"*
+> *"ChatGPT is the Swiss Army knife, Claude is the artisan's scalpel, Gemini is the key to the Google ecosystem"*
 
 ---
 
-## 자율 에이전트
+## Autonomous Agents
 
-> "이거 해줘" 하면 알아서 연구, 계획, 실행, 검증까지. 가장 미래적인 카테고리.
+> Say "do this" and it researches, plans, executes, and verifies on its own. The most futuristic category.
 
 | | Claude Cowork | Devin |
 |---|---|---|
-| **사이트** | [claude.com](https://claude.com) | [devin.ai](https://devin.ai) |
-| **대상** | 논코더 오피스 워커 | 소프트웨어 엔지니어 |
-| **환경** | 데스크톱 앱 | 클라우드 IDE |
-| **시작가** | $20/월 (Pro) | $20/월 (Core, ACU별 과금) |
-| **연동** | Drive, Gmail, Slack, DocuSign | GitHub, 자체 IDE |
-| **과금** | 구독 | ACU ($2.25/unit, ~15분) |
+| **Site** | [claude.com](https://claude.com) | [devin.ai](https://devin.ai) |
+| **Target** | Non-coder office workers | Software engineers |
+| **Environment** | Desktop app | Cloud IDE |
+| **Starting Price** | $20/mo (Pro) | $20/mo (Core, ACU-based) |
+| **Integrations** | Drive, Gmail, Slack, DocuSign | GitHub, custom IDE |
+| **Billing** | Subscription | ACU ($2.25/unit, ~15 min) |
 
 
-### 커뮤니티 반응: 자율 에이전트
+### Community Reactions: Autonomous Agents
 
 **Claude Cowork:**
-> *"정리해달라고 했더니 '쓸모없다'고 판단한 파일 11GB를 삭제했다."* — 실사용자 경험담
+> *"I asked it to organize things and it deleted 11GB of files it judged as 'useless'."* — real user experience
 
-> *"AI 경험 제로인 주니어가 45분 만에 쓸 줄 알게 되고, 이틀 차에 복잡한 작업을 위임하고 있었다."* — Hackceleration 6주 테스트
+> *"A junior with zero AI experience was using it within 45 minutes, and by day two was delegating complex tasks."* — Hackceleration 6-week test
 
 **Devin:**
-> *"$500/월 Team은 잘 정의된 대량 백로그가 있어야만 가치가 있다. 모호한 작업은 Claude Code $20/월이 이긴다."* — Reddit 컨센서스
+> *"The $500/mo Team tier only makes sense if you have a large, well-defined backlog. For vague tasks, Claude Code at $20/mo wins."* — Reddit consensus
 
 
 
-## 일반사무 오픈소스
+## General Office Open Source
 
-> 무료. 내 모델. 내 서버. 내 데이터. 자유의 땅.
+> Free. Your model. Your server. Your data. The land of freedom.
 
 | | OpenClaw | LM Studio | Jan.ai |
 |---|---|---|---|
 | **Stars** | 333K | — | 25K+ |
-| **라이선스** | MIT | 무료 (비오픈소스) | AGPL 3.0 |
-| **유형** | 범용 AI 어시스턴트 | 로컬 LLM 실행기 | 로컬 AI 채팅 |
-| **킬러 피처** | 50+ 메신저 통합 | GPU 자동감지, 원클릭 | 오프라인 완전 지원 |
+| **License** | MIT | Free (non-open source) | AGPL 3.0 |
+| **Type** | General AI assistant | Local LLM runner | Local AI chat |
+| **Killer Feature** | 50+ messenger integrations | GPU auto-detect, one-click | fully offline support |
 
 ---
 
-## 일반사무 가격 레이더
+## General Office Pricing Radar
 
-| 구간 | 도구 | 가격 | 포함 내용 |
+| Tier | Tool | Price | Includes |
 |---|---|---|---|
-| **무료** | [ChatGPT](https://chatgpt.com) | $0 | GPT-5 mini |
+| **Free** | [ChatGPT](https://chatgpt.com) | $0 | GPT-5 mini |
 | | [Claude.ai](https://claude.com) | $0 | Sonnet 4.5 |
-| | [Gemini](https://gemini.google.com) | $0 | 100 AI 크레딧 |
-| | [Perplexity](https://www.perplexity.ai) | $0 | 제한적 |
-| **~$20** | [ChatGPT Go](https://chatgpt.com) | $8/월 | GPT-5.3 Instant |
-| | [Copilot MS](https://www.microsoft.com/en-us/microsoft-365-copilot) | $18/월 | M365 통합 |
-| | [ChatGPT Plus](https://chatgpt.com) | $20/월 | GPT-5.2 + Codex |
-| | [Claude Pro](https://claude.com) | $20/월 | Opus 4.6 + Cowork |
-| | [Gemini Pro](https://gemini.google.com) | $19.99/월 | Gemini 3 |
-| | [Perplexity Pro](https://www.perplexity.ai) | $20/월 | 무제한 Pro |
-| | [Devin Core](https://devin.ai) | $20/월 | ACU 기반 |
-| **$30+** | [Grok](https://x.ai) | $30/월 | 2M 컨텍스트 |
-| | [ChatGPT Pro](https://chatgpt.com) | $200/월 | GPT-5.4 Pro |
-| | [Claude Max](https://claude.com) | $100~200/월 | 5x~20x |
-| | [Gemini Ultra](https://gemini.google.com) | $249.99/월 | 모든 기능 |
+| | [Gemini](https://gemini.google.com) | $0 | 100 AI credits |
+| | [Perplexity](https://www.perplexity.ai) | $0 | limited |
+| **~$20** | [ChatGPT Go](https://chatgpt.com) | $8/mo | GPT-5.3 Instant |
+| | [Copilot MS](https://www.microsoft.com/en-us/microsoft-365-copilot) | $18/mo | M365 integration |
+| | [ChatGPT Plus](https://chatgpt.com) | $20/mo | GPT-5.2 + Codex |
+| | [Claude Pro](https://claude.com) | $20/mo | Opus 4.6 + Cowork |
+| | [Gemini Pro](https://gemini.google.com) | $19.99/mo | Gemini 3 |
+| | [Perplexity Pro](https://www.perplexity.ai) | $20/mo | unlimited Pro |
+| | [Devin Core](https://devin.ai) | $20/mo | ACU-based |
+| **$30+** | [Grok](https://x.ai) | $30/mo | 2M context |
+| | [ChatGPT Pro](https://chatgpt.com) | $200/mo | GPT-5.4 Pro |
+| | [Claude Max](https://claude.com) | $100~200/mo | 5x~20x |
+| | [Gemini Ultra](https://gemini.google.com) | $249.99/mo | all features |
 
-### 일반사무 커뮤니티 반응 (비교 중심)
+### General Office Community Reactions (Comparison)
 
-> *"Claude가 Python에서 GPT4를 압도한다."* — r/programming `2026.01`
+> *"Claude dominates GPT4 in Python."* — r/programming `2026.01`
 
-> *"어제 Claude로 갈아탔는데 폰 앱 전체를 만들어줬다. 내 말을 진짜 듣는 느낌이다."* — r/programming `2026.02`
+> *"Switched to Claude yesterday and it built my entire phone app. It actually listens."* — r/programming `2026.02`
 
-> *"정리해달라고 했더니 '쓸모없다'고 판단한 파일 11GB를 삭제했다."* — Claude Cowork 사용자 `2026.01`
+> *"I asked it to organize things and it deleted 11GB of files it judged as 'useless'."* — Claude Cowork user `2026.01`
 
-| 매치업 | 승자 (상황별) |
+| Matchup | Winner (by situation) |
 |---|---|
-| **ChatGPT vs Claude (코딩)** | 코딩 품질 = Claude (78%), 범용 = ChatGPT |
-| **Devin vs Claude Code** | 자율 위임 = Devin, 대화형 디버깅 = Claude Code |
+| **ChatGPT vs Claude (coding)** | code quality = Claude (78%), general use = ChatGPT |
+| **Devin vs Claude Code** | autonomous delegation = Devin, interactive debug = Claude Code |
 
-### 일반사무 한 줄 평
+### General Office One-Liner Reviews
 
-| 도구 | 한마디 |
+| Tool | In a word |
 |---|---|
-| **ChatGPT** | *"만능 스위스 나이프"* |
-| **Claude.ai** | *"장인의 메스"* |
-| **Gemini** | *"Google 생태계의 열쇠"* |
-| **Perplexity** | *"검색+인용의 유일무이"* |
-| **Grok** | *"2M 컨텍스트의 괴물"* |
-| **Devin** | *"비싸지만 진짜 자율"* |
-| **Claude Cowork** | *"논코더의 Claude Code"* |
+| **ChatGPT** | *"The Swiss Army knife"* |
+| **Claude.ai** | *"The artisan's scalpel"* |
+| **Gemini** | *"The key to the Google ecosystem"* |
+| **Perplexity** | *"The only search+citation combo"* |
+| **Grok** | *"The 2M context monster"* |
+| **Devin** | *"Expensive but truly autonomous"* |
+| **Claude Cowork** | *"Claude Code for Non-coders"* |
 
-### 일반사무 추천 스택
+### General Office Recommended Stacks
 
 ```
-오피스워커   = ChatGPT + Claude Cowork         = $40/월
-리서처      = Perplexity + Grok               = $50/월
-M365 사용자 = Copilot MS                      = $18/월
+Office worker  = ChatGPT + Claude Cowork         = $40/mo
+Researcher     = Perplexity + Grok               = $50/mo
+M365 user      = Copilot MS                      = $18/mo
 ```
 
 
 ---
 
-## 기여하기
+## Contributing
 
-AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가 나왔다면:
+The AI tools market changes every week. If information is outdated or a new tool has appeared:
 
-- **[PR 보내기](https://github.com/tykimos/ai-whatchelin/pulls)** — 가격 업데이트, 새 도구 추가, 오류 수정
-- **[Issue 열기](https://github.com/tykimos/ai-whatchelin/issues)** — "이거 틀렸어요", "이 도구 빠졌어요"
-- **Star 눌러주세요** — 더 많은 바이브코더에게 닿을 수 있게
+- **[Send a PR](https://github.com/tykimos/ai-whatchelin/pulls)** — price updates, new tools, error fixes
+- **[Open an Issue](https://github.com/tykimos/ai-whatchelin/issues)** — "This is wrong", "This tool is missing"
+- **Star this repo** — help more Vibe Coders find it
 
 ---
 
 
-### 팩트 체크 로그 (2026-03-24)
+### Fact Check Log (2026-03-24)
 
-모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
+All pricing information has been directly verified from each service's official website.
 
-| 도구 | 검증 URL | 주요 변경사항 |
+| Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | Go 플랜 $8/월 신규 추가 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월) |
-| Cursor | cursor.com/pricing | Pro+ $60/월 확인, Bugbot 별도 |
-| Windsurf | windsurf.com/pricing | Max $200/월 확인 |
-| Kiro | kiro.dev/pricing | 500 보너스 크레딧 (30일) |
-| GitHub Copilot | github.com/features/copilot/plans | Pro Plus 신규, Enterprise에 Opus 4.6 |
-| Devin | devin.ai/pricing | ACU 기반 과금 확인 |
-| Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
-| v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
-| Lovable | lovable.dev/pricing | 학생 50% 할인, Q1 Cloud $25 포함 |
-| Tabnine | tabnine.com/pricing | 연간 구독만, 무료 폐지 |
-| Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
-| Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
-| Antigravity | antigravity.google | Google AI Pro/Ultra 구독의 일부 |
+| ChatGPT | chatgpt.com/pricing | Go plan $8/mo newly added |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo) |
+| Cursor | cursor.com/pricing | Pro+ $60/mo confirmed, Bugbot separate |
+| Windsurf | windsurf.com/pricing | Max $200/mo confirmed |
+| Kiro | kiro.dev/pricing | 500 bonus credits (30 days) |
+| GitHub Copilot | github.com/features/copilot/plans | Pro Plus new, Opus 4.6 in Enterprise |
+| Devin | devin.ai/pricing | ACU-based billing confirmed |
+| Bolt | bolt.new/pricing | token rollover from Jul 2025 |
+| v0 | v0.app/pricing | domain changed v0.dev → v0.app |
+| Lovable | lovable.dev/pricing | 50% student discount, Q1 Cloud $25 included |
+| Tabnine | tabnine.com/pricing | annual subscription only, free plan discontinued |
+| Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
+| Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
+| Antigravity | antigravity.google | part of Google AI Pro/Ultra subscription |
 
 
 
@@ -965,7 +969,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 </p>
 
 <p align="center">
-  <em>기여해주신 모든 분들께 감사합니다!</em>
+  <em>Thank you to all our contributors!</em>
 </p>
 
 ---
@@ -978,6 +982,6 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 </p>
 
 <p align="center">
-  <em>이 문서는 공식 사이트 팩트 체크 + 커뮤니티 실사용 반응을 기반으로 작성되었습니다.</em><br>
-  <em>가격과 기능은 수시로 변경됩니다. 구독 전 반드시 공식 사이트를 확인하세요.</em>
+  <em>This document is based on official site fact checks + real community user reactions.</em><br>
+  <em>Prices and features change frequently. Always check the official site before subscribing.</em>
 </p>
