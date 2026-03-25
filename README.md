@@ -70,11 +70,15 @@
 
 ---
 
-## 바이브코더들이 실제로 쓰는 조합
+# 바이브코더
+
+> 코드를 짜고, 앱을 만들고, 자동화하는 바이브코더를 위한 AI 도구들.
+
+### 바이브코더들이 실제로 쓰는 조합
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#6366f1', 'pie2': '#3b82f6', 'pie3': '#10b981', 'pie4': '#f59e0b', 'pie5': '#ec4899', 'pie6': '#8b5cf6', 'pieTitleTextColor': '#888', 'pieSectionTextColor': '#fff', 'pieLegendTextColor': '#888', 'pieOuterStrokeColor': '#555'}}}%%
-pie title "2026 커뮤니티 기반 도구 조합"
+pie title "2026 바이브코더 도구 조합"
     "Cursor + Claude Code" : 35
     "Windsurf + Codex CLI" : 20
     "GitHub Copilot 단독" : 15
@@ -85,13 +89,7 @@ pie title "2026 커뮤니티 기반 도구 조합"
 
 > *"Cursor는 최고의 AI 에디터. Claude Code는 최고의 AI 엔지니어. Windsurf는 최고의 가성비."*
 
----
-
-## 나한테 맞는 도구는?
-
-> 상황에 맞게 따라가면 딱 맞는 도구를 찾을 수 있습니다.
-
-### 코드를 짜고 싶다
+### 나한테 맞는 코딩 도구는?
 
 ```mermaid
 flowchart TD
@@ -120,8 +118,6 @@ flowchart TD
     E1 -->|"AWS 기반 개발"| EA["Amazon Q\n$19/user/월"]
 ```
 
-### 앱을 만들고 싶다
-
 ```mermaid
 flowchart TD
     A{"앱을 만들고 싶다"} --> B{"코딩 경험은?"}
@@ -136,44 +132,7 @@ flowchart TD
     D -->|"UI 컴포넌트"| D2["v0.app $30/월"]
 ```
 
-### 업무를 자동화하고 싶다
-
-```mermaid
-flowchart TD
-    A{"업무를 자동화하고 싶다"} --> B{"누구야?"}
-
-    B -->|"바이브코더"| C{"어떤 업무?"}
-    B -->|"논코더"| D{"어떤 업무?"}
-
-    C -->|"코딩 위임"| C1["Devin\n$20/월~ ACU과금"]
-    C -->|"반복 작업 자동화"| C2["Claude Code\n$20/월"]
-
-    D -->|"파일 정리/문서 작성"| D1["Claude Cowork\n$20/월 Pro"]
-    D -->|"리서치/데이터 추출"| D2["Claude Cowork\n$20/월 Pro"]
-```
-
-### AI한테 물어보고 싶다
-
-```mermaid
-flowchart TD
-    A{"AI한테 물어보고 싶다"} --> B{"뭘 물어봐?"}
-
-    B -->|"코딩 질문"| C{"뭐가 중요해?"}
-    B -->|"최신 정보 검색"| D["Perplexity\n$20/월 검색+인용"]
-    B -->|"대용량 분석"| E{"뭐가 중요해?"}
-
-    C -->|"코드 품질 최고"| C1["Claude.ai\n$20/월"]
-    C -->|"만능 + 범용"| C2["ChatGPT $20/월\nGemini $20/월"]
-
-    E -->|"초대형 컨텍스트"| E1["Grok\n$30/월 2M 토큰"]
-    E -->|"M365 통합"| E2["Copilot MS\n$18/월"]
-```
-
----
-
-## 카테고리별 인기 순위
-
-### 코딩 도구 (에이전트 + IDE)
+### 바이브코더 인기 순위
 
 | 순위 | 도구 | 카테고리 | 근거 |
 |:---:|---|---|---|
@@ -183,40 +142,10 @@ flowchart TD
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
 | 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | 코딩 에이전트 | 출시 1개월 100만 바이브코더, 안전한 샌드박스, 240+ tok/s |
 
-### 범용 AI 채팅
-
-| 순위 | 도구 | 근거 |
-|:---:|---|---|
-| 1 | **[ChatGPT](https://chatgpt.com)** | 주간 9억 사용자, 유료 5천만 명, SuperApp 발표 |
-| 2 | **[Claude.ai](https://claude.com)** | 1M 컨텍스트, Extended Thinking, 코딩 품질 1위 |
-| 3 | **[Gemini](https://gemini.google.com)** | 시장 점유율 5.4%→18.2% 급성장, 영상/이미지 생성 |
-| 4 | **[Perplexity](https://www.perplexity.ai)** | 검색+인용 통합의 유일무이, Computer 에이전트 |
-| 5 | **[Grok](https://x.ai)** | 2M 컨텍스트 (업계 최대), X 실시간 데이터 |
-
-### 오픈소스
-
-| 순위 | 도구 | Stars | 근거 |
-|:---:|---|---|---|
-| 1 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 333K | 범용 AI, 50+ 메신저, 5400+ Skills |
-| 2 | **[Cline](https://github.com/cline/cline)** | 59.3K | VS Code 에이전트, 5M+ 설치 |
-| 3 | **[Aider](https://aider.chat)** | 42.3K | Git-first, 4.1M 설치, 모든 LLM |
-| 4 | **[Tabby](https://github.com/TabbyML/tabby)** | 33K | 완전 온프레미스, 코드 외부 전송 0% |
-| 5 | **[Goose](https://github.com/block/goose)** | 29.4K | Block(Square) 제작, MCP 통합 |
-
----
-
-## 전체 지도
+### 바이브코더 전체 지도
 
 ```
-뭐쓸까?
-├── 채팅 AI
-│   ├── ChatGPT ········· OpenAI, GPT-5.4, $0~200/월
-│   ├── Claude.ai ······· Anthropic, Opus 4.6, $0~200/월
-│   ├── Gemini ·········· Google, 3.1 Pro, $0~250/월
-│   ├── Copilot (MS) ···· Microsoft, M365 통합, $0~30/월
-│   ├── Grok ············ xAI, 2M 컨텍스트, $0~30/월
-│   └── Perplexity ······ 검색+인용, $0~325/월
-│
+바이브코더
 ├── 코딩 에이전트 (CLI)
 │   ├── Claude Code ····· Anthropic, SWE-bench 1위, $20/월~
 │   ├── Codex CLI ······· OpenAI, 샌드박스, $20/월~
@@ -242,10 +171,6 @@ flowchart TD
 │   ├── Lovable ········· 논코더 친화, $0~50/월
 │   └── Replit Agent ···· 올인원 배포, $0~95/월
 │
-├── 자율 에이전트
-│   ├── Claude Cowork ··· 논코더 업무, $20/월~
-│   └── Devin ··········· 자율 코딩, $20/월~
-│
 └── 오픈소스
     ├── OpenClaw ········· 333K Stars, 범용 AI
     ├── OpenCode ········· 95K Stars, 터미널 에이전트
@@ -255,14 +180,6 @@ flowchart TD
     ├── Continue.dev ····· 32K Stars, CI/CD 통합
     └── Goose ············ 29K Stars, Block 제작
 ```
-
----
-
----
-
-# 바이브코더
-
-> 코드를 짜고, 앱을 만들고, 자동화하는 바이브코더를 위한 AI 도구들.
 
 ---
 
@@ -408,11 +325,88 @@ timeline
 
 ---
 
+## 오픈소스
+
+> 무료. 내 모델. 내 서버. 내 데이터. 자유의 땅.
+
+```mermaid
+xychart-beta
+    title "오픈소스 AI 코딩 도구 GitHub Stars (K)"
+    x-axis ["OpenClaw", "OpenCode", "Cline", "Aider", "Tabby", "Continue", "Goose"]
+    y-axis "Stars (K)" 0 --> 350
+    bar [333, 95, 59.3, 42.3, 33, 32, 29.4]
+```
+
+| | OpenClaw | OpenCode | Cline | Aider | Tabby | Continue | Goose |
+|---|---|---|---|---|---|---|---|
+| **Stars** | **333K** | 95K+ | 59.3K | 42.3K | 33K | 32K | 29.4K |
+| **라이선스** | MIT | OSS | Apache 2.0 | Apache 2.0 | — | Apache 2.0 | Apache 2.0 |
+| **유형** | 범용 AI | 터미널 에이전트 | VS Code 에이전트 | CLI 에이전트 | 코드 완성 | IDE+CI | 자율 에이전트 |
+| **모델** | 다중 | 75+ | 다중+Ollama | **모든 LLM** | 로컬 전용 | 모든 모델 | 모든 LLM |
+| **킬러 피처** | 50+ 메신저, 5400 Skills | TUI, LSP, 세션 공유 | 5M+ 설치 | Git-first | 코드 외부 전송 0% | CI/CD 통합 | Block 제작, MCP |
+
+---
+
 ---
 
 # 크리에이터
 
 > 이미지와 비디오를 만드는 크리에이터를 위한 AI 도구들.
+
+### 나한테 맞는 크리에이터 도구는?
+
+```mermaid
+flowchart TD
+    A{"뭘 만들고 싶어?"} --> B["이미지"]
+    A --> C["비디오"]
+
+    B --> B1{"뭐가 중요해?"}
+    B1 -->|"예술적 품질"| B1a["Midjourney\n$10/월"]
+    B1 -->|"프롬프트 정확도"| B1b["GPT Image\n$20/월"]
+    B1 -->|"무료/오픈소스"| B1c["Stable Diffusion\n$0"]
+    B1 -->|"텍스트 렌더링"| B1d["Ideogram\n$15/월"]
+    B1 -->|"저작권 안전"| B1e["Adobe Firefly\n$9.99/월"]
+
+    C --> C1{"뭐가 중요해?"}
+    C1 -->|"시네마 리얼리즘"| C1a["Sora\n$20/월"]
+    C1 -->|"편집 스위트"| C1b["Runway\n$12/월"]
+    C1 -->|"가성비 최강"| C1c["Kling\n$6.99/월"]
+    C1 -->|"오디오 동기화"| C1d["Veo\n$7.99/월"]
+    C1 -->|"VFX 파이프라인"| C1e["Luma\n$30/월"]
+```
+
+### 크리에이터 인기 순위
+
+| 순위 | 이미지 도구 | 근거 | | 순위 | 비디오 도구 | 근거 |
+|:---:|---|---|---|:---:|---|---|
+| 1 | **[Midjourney](https://www.midjourney.com)** | 예술적 품질 최강, V8 알파 | | 1 | **[Runway](https://runwayml.com)** | Gen-4.5, 풀 편집 스위트 |
+| 2 | **[GPT Image](https://openai.com)** | LM Arena 1위, 프롬프트 정확도 | | 2 | **[Sora](https://openai.com/sora)** | Sora 2, 시네마 리얼리즘 |
+| 3 | **[Flux](https://bfl.ai)** | LM Arena 2위, 오픈소스 | | 3 | **[Kling](https://klingai.com)** | 3.0, $6.99 가성비, 4K 60FPS |
+| 4 | **[Ideogram](https://ideogram.ai)** | 텍스트 렌더링 1위 | | 4 | **[Veo](https://deepmind.google)** | 3.1, 네이티브 오디오 |
+| 5 | **[Adobe Firefly](https://firefly.adobe.com)** | 저작권 안전 | | 5 | **[Luma](https://lumalabs.ai)** | Ray3.14, 4K EXR |
+
+### 크리에이터 전체 지도
+
+```
+크리에이터
+├── AI 이미지 생성
+│   ├── Midjourney ······ 예술적 품질 최강, $10/월~
+│   ├── GPT Image ······· 프롬프트 정확도 1위, $20/월~
+│   ├── Stable Diffusion · 오픈소스, 무료 셀프호스팅
+│   ├── Ideogram ········ 텍스트 렌더링 최강, $15/월~
+│   ├── Flux ············ 포토리얼리즘, $0.04/장
+│   ├── Adobe Firefly ··· 저작권 안전, $9.99/월~
+│   └── Google Imagen ··· Google 생태계, 무료(AI Studio)
+│
+└── AI 비디오 생성
+    ├── Sora ············ 시네마 리얼리즘, $20/월~
+    ├── Runway ··········· 풀 편집 스위트, $12/월~
+    ├── Kling ············ 인간 리얼리즘 + 가성비, $6.99/월~
+    ├── Veo ·············· 네이티브 오디오, $7.99/월~
+    ├── Pika ············· 물리 효과 프리셋, $10/월~
+    ├── Luma ············· VFX 파이프라인, $30/월~
+    └── HailuoAI ········· 대량 생산 가성비, $14.99/월~
+```
 
 ---
 
@@ -467,6 +461,52 @@ timeline
 
 > 질문하고, 검색하고, 문서 정리하고, 업무를 자동화하는 오피스 워커를 위한 AI 도구들.
 
+### 나한테 맞는 일반사무 도구는?
+
+```mermaid
+flowchart TD
+    A{"뭘 하고 싶어?"} --> B["AI한테 물어보기"]
+    A --> C["업무 자동화"]
+
+    B --> B1{"뭐가 중요해?"}
+    B1 -->|"코드 품질 최고"| B1a["Claude.ai\n$20/월"]
+    B1 -->|"만능 + 범용"| B1b["ChatGPT $8~20/월\nGemini $20/월"]
+    B1 -->|"최신 정보 검색"| B1c["Perplexity\n$20/월"]
+    B1 -->|"초대형 컨텍스트"| B1d["Grok\n$30/월 2M"]
+    B1 -->|"M365 통합"| B1e["Copilot MS\n$18/월"]
+
+    C --> C1{"누구야?"}
+    C1 -->|"바이브코더"| C1a["Devin\n$20/월~ ACU"]
+    C1 -->|"논코더"| C1b["Claude Cowork\n$20/월 Pro"]
+```
+
+### 일반사무 인기 순위
+
+| 순위 | 도구 | 근거 |
+|:---:|---|---|
+| 1 | **[ChatGPT](https://chatgpt.com)** | 주간 9억 사용자, 유료 5천만 명, SuperApp 발표 |
+| 2 | **[Claude.ai](https://claude.com)** | 1M 컨텍스트, Extended Thinking, 코딩 품질 1위 |
+| 3 | **[Gemini](https://gemini.google.com)** | 시장 점유율 5.4%→18.2% 급성장, 영상/이미지 생성 |
+| 4 | **[Perplexity](https://www.perplexity.ai)** | 검색+인용 통합의 유일무이, Computer 에이전트 |
+| 5 | **[Grok](https://x.ai)** | 2M 컨텍스트 (업계 최대), X 실시간 데이터 |
+
+### 일반사무 전체 지도
+
+```
+일반사무
+├── 채팅 AI
+│   ├── ChatGPT ········· OpenAI, GPT-5.4, $0~200/월
+│   ├── Claude.ai ······· Anthropic, Opus 4.6, $0~200/월
+│   ├── Gemini ·········· Google, 3.1 Pro, $0~250/월
+│   ├── Copilot (MS) ···· Microsoft, M365 통합, $0~30/월
+│   ├── Grok ············ xAI, 2M 컨텍스트, $0~30/월
+│   └── Perplexity ······ 검색+인용, $0~325/월
+│
+└── 자율 에이전트
+    ├── Claude Cowork ··· 논코더 업무, $20/월~
+    └── Devin ··········· 자율 코딩, $20/월~
+```
+
 ---
 
 ## 채팅 AI
@@ -513,28 +553,6 @@ timeline
 > *"$500/월 Team은 잘 정의된 대량 백로그가 있어야만 가치가 있다. 모호한 작업은 Claude Code $20/월이 이긴다."* — Reddit 컨센서스
 
 </details>
-
----
-
-## 오픈소스
-
-> 무료. 내 모델. 내 서버. 내 데이터. 자유의 땅.
-
-```mermaid
-xychart-beta
-    title "오픈소스 AI 코딩 도구 GitHub Stars (K)"
-    x-axis ["OpenClaw", "OpenCode", "Cline", "Aider", "Tabby", "Continue", "Goose"]
-    y-axis "Stars (K)" 0 --> 350
-    bar [333, 95, 59.3, 42.3, 33, 32, 29.4]
-```
-
-| | OpenClaw | OpenCode | Cline | Aider | Tabby | Continue | Goose |
-|---|---|---|---|---|---|---|---|
-| **Stars** | **333K** | 95K+ | 59.3K | 42.3K | 33K | 32K | 29.4K |
-| **라이선스** | MIT | OSS | Apache 2.0 | Apache 2.0 | — | Apache 2.0 | Apache 2.0 |
-| **유형** | 범용 AI | 터미널 에이전트 | VS Code 에이전트 | CLI 에이전트 | 코드 완성 | IDE+CI | 자율 에이전트 |
-| **모델** | 다중 | 75+ | 다중+Ollama | **모든 LLM** | 로컬 전용 | 모든 모델 | 모든 LLM |
-| **킬러 피처** | 50+ 메신저, 5400 Skills | TUI, LSP, 세션 공유 | 5M+ 설치 | Git-first | 코드 외부 전송 0% | CI/CD 통합 | Block 제작, MCP |
 
 ---
 
