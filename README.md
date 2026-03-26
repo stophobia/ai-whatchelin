@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-03-25</sub>
+  <sub>Last updated: 2026-03-26</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.03.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.03.26-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -129,6 +129,8 @@ timeline
          : Windsurf #1 on LogRocket
          : Antigravity quota controversy
          : Sora shutdown (Mar 24)
+         : Claude Code Auto Mode + Computer Use (Mar 24)
+         : Copilot data-training backlash (Mar 25)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -280,6 +282,8 @@ quadrantChart
 
 > *"One complex prompt burns 50–70% of the 5-hour limit."* — r/ChatGPTCoding (388 upvotes)
 
+> *"Claude Code Auto Mode lets it autonomously decide permissions — a two-layer classifier checks each tool call for destructive actions before execution."* — TechCrunch `2026.03.24`
+
 **2026 Power Stack Formula**:
 ```
 Daily coding    = Codex CLI (keystroke level)
@@ -317,6 +321,12 @@ Free            = Gemini CLI + Aider
 
 **Cursor Composer 2 / Kimi K2.5 Scandal** (2026.03):
 > *"Cursor shipped Composer 2 as 'self-developed' but the model ID was kimi-k2p5. $50B company forgot to credit open source."* — VentureBeat `2026.03.20`
+
+**Cursor Self-Hosted Cloud Agents** (2026.03.25):
+> *"Cursor launched self-hosted cloud agents — code and tool execution stay entirely on your network. Money Forward is enabling ~1,000 engineers to create PRs from Slack."* — cursor.com/changelog `2026.03.25`
+
+**GitHub Copilot Data Training Backlash** (2026.03.25):
+> *"Starting April 24, GitHub will use Copilot Free/Pro/Pro+ interaction data to train AI models unless you opt out. 59 thumbs-down vs 3 rockets on the announcement."* — GitHub Blog `2026.03.25`
 
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
@@ -460,24 +470,24 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 8 Days)"
-    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25"]
+    x-axis ["03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26"]
     y-axis "Popularity Score" 50 --> 100
-    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90, 90]
-    line "Cursor" [88, 87, 87, 87, 87, 87, 87, 86]
-    line "Claude Code" [83, 84, 84, 85, 85, 85, 85, 86]
-    line "Windsurf" [73, 74, 74, 75, 75, 75, 75, 75]
-    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [68, 67, 66, 65, 64, 63, 62, 61]
+    line "GH Copilot" [90, 90, 89, 90, 90, 90, 90, 89]
+    line "Cursor" [87, 87, 87, 87, 87, 87, 86, 87]
+    line "Claude Code" [84, 84, 85, 85, 85, 85, 86, 87]
+    line "Windsurf" [74, 74, 75, 75, 75, 75, 75, 75]
+    line "Codex CLI" [71, 72, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [67, 66, 65, 64, 63, 62, 61, 60]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-90-F5A623?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-86↓-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Claude_Code-86↑-2ECC71?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-89↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-87↑-2ECC71?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-87↑-2ECC71?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-1ABC9C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-61↓-95A5A6?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-60↓-95A5A6?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -974,8 +984,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
-| 2026/03/24 | Claude Code Auto Mode | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
-| 2026/03/23 | **Claude Computer Use** (mouse/keyboard control) | [engadget.com](https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html) |
+| 2026/03/25 | **5th Economic Index** (6-month users 10% higher success) | [anthropic.com](https://www.anthropic.com/research/the-economic-index-5) |
+| 2026/03/24 | Claude Code **Auto Mode** + **Computer Use** for Cowork + **Channels** (Discord/Telegram) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
+| 2026/03/24 | Claude Code surpasses **$2.5B ARR** | [cnbc.com](https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html) |
 | 2026/03/20 | Projects in Cowork + Claude Code Channels (Discord/Telegram) | [venturebeat.com](https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels) |
 | 2026/03/17 | Dispatch (persistent agent thread) | [mlq.ai](https://mlq.ai/news/anthropic-launches-claude-dispatch-for-remote-desktop-ai-control/) |
 | 2026/03/13 | **1M context window GA** (no premium) | [claude.com](https://claude.com/blog/1m-context-ga) |
@@ -1002,6 +1013,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/26 | Legacy deep research mode removed | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/24 | **Sora shutdown** (app + API discontinued) | [axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app) |
 | 2026/03/20 | Codex for Students ($100 credits) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/20 | **SuperApp announced** (ChatGPT + Codex + Atlas browser) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing) |
@@ -1032,6 +1044,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/25 | **Copilot data training policy** (opt-out by Apr 24) + Copilot for Jira enhancements | [github.blog](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/) |
 | 2026/03/11 | GitHub Copilot JetBrains: custom agents, sub-agents, plan agent GA | [github.blog](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) |
 | 2026/03/09 | **Copilot Cowork** (with Anthropic) + **Agent 365** + **M365 E7** ($99/user/mo) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/) |
 | 2026/02/~ | M365 Copilot: Smart scheduling, visual recaps, agents in OneDrive | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489) |
@@ -1041,6 +1054,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/25 | **Self-hosted cloud agents** (Brex, Money Forward, Notion) | [cursor.com](https://cursor.com/blog/self-hosted-cloud-agents) |
 | 2026/03/19 | **Composer 2** model (Kimi K2.5 based) + **Cursor Glass** alpha | [cursor.com](https://cursor.com/blog/composer-2) |
 | 2026/03/12 | **$50B valuation** talks (Bloomberg) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation) |
 | 2026/03/02 | Surpassed **$2B ARR** | [techcrunch.com](https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-03-25</sub>
+  <sub>마지막 업데이트: 2026-03-26</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.03.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.03.26-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -129,6 +129,8 @@ timeline
          : Windsurf LogRocket 1위
          : Antigravity 쿼터 논란
          : Sora 셧다운 (3/24)
+         : Claude Code Auto Mode + Computer Use (3/24)
+         : Copilot 데이터 학습 논란 (3/25)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -318,6 +320,12 @@ quadrantChart
 **Cursor Composer 2 / Kimi K2.5 스캔들** (2026.03):
 > *"Cursor가 Composer 2를 '자체 개발'이라며 출시했지만, 모델 ID가 kimi-k2p5였다. $50B 기업이 오픈소스 출처를 숨겼다."* — VentureBeat `2026.03.20`
 
+**Cursor 자체 호스팅 클라우드 에이전트** (2026.03.25):
+> *"Cursor가 자체 호스팅 클라우드 에이전트를 출시 — 코드와 도구 실행이 전부 자체 네트워크에 머문다. Money Forward는 ~1,000명의 엔지니어가 Slack에서 PR을 생성할 수 있도록 도입 중."* — cursor.com/changelog `2026.03.25`
+
+**GitHub Copilot 데이터 학습 논란** (2026.03.25):
+> *"4월 24일부터 GitHub이 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 모델 학습에 사용한다. 옵트아웃 안 하면 자동 동의. 공지에 👎 59개 vs 🚀 3개."* — GitHub Blog `2026.03.25`
+
 **Trae 프라이버시 경고**:
 > *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
 
@@ -419,6 +427,8 @@ xychart-beta
 
 > *"한 번 복잡한 프롬프트 날리면 5시간 한도의 50~70%가 날아간다."* — r/ClaudeAI (388 upvotes) `2026.02`
 
+> *"Claude Code Auto Mode가 권한을 자율 결정 — 이중 분류기가 각 도구 호출의 파괴적 동작을 실행 전에 검사한다."* — TechCrunch `2026.03.24`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -460,24 +470,24 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 8일)"
-    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25"]
+    x-axis ["03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26"]
     y-axis "인기 점수" 50 --> 100
-    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90, 90]
-    line "Cursor" [88, 87, 87, 87, 87, 87, 87, 86]
-    line "Claude Code" [83, 84, 84, 85, 85, 85, 85, 86]
-    line "Windsurf" [73, 74, 74, 75, 75, 75, 75, 75]
-    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [68, 67, 66, 65, 64, 63, 62, 61]
+    line "GH Copilot" [90, 90, 89, 90, 90, 90, 90, 89]
+    line "Cursor" [87, 87, 87, 87, 87, 87, 86, 87]
+    line "Claude Code" [84, 84, 85, 85, 85, 85, 86, 87]
+    line "Windsurf" [74, 74, 75, 75, 75, 75, 75, 75]
+    line "Codex CLI" [71, 72, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [67, 66, 65, 64, 63, 62, 61, 60]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-90-F5A623?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-86↓-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Claude_Code-86↑-2ECC71?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-89↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-87↑-2ECC71?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-87↑-2ECC71?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-1ABC9C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-61↓-95A5A6?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-60↓-95A5A6?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -974,8 +984,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
-| 2026/03/24 | Claude Code Auto Mode (자동 퍼미션 판단) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
-| 2026/03/23 | **Claude Computer Use** (마우스/키보드 제어) | [engadget.com](https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html) |
+| 2026/03/25 | **5차 경제 지표 보고서** (6개월 이상 사용자 성공률 10% 높음) | [anthropic.com](https://www.anthropic.com/research/the-economic-index-5) |
+| 2026/03/24 | Claude Code **Auto Mode** + Cowork **Computer Use** + **Channels** (Discord/Telegram) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
+| 2026/03/24 | Claude Code **$2.5B ARR** 돌파 | [cnbc.com](https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html) |
 | 2026/03/20 | Cowork에 Projects 도입 + Claude Code Channels (Discord/Telegram) | [venturebeat.com](https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels) |
 | 2026/03/17 | Dispatch (Cowork 원격 제어, 영속 에이전트 스레드) | [mlq.ai](https://mlq.ai/news/anthropic-launches-claude-dispatch-for-remote-desktop-ai-control/) |
 | 2026/03/13 | **1M 토큰 컨텍스트 윈도우 GA** (추가 비용 없음) | [claude.com](https://claude.com/blog/1m-context-ga) |
@@ -1002,6 +1013,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/26 | 레거시 딥 리서치 모드 제거 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/24 | **Sora 셧다운** (앱 + API 종료, 로보틱스로 전환) | [axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app) |
 | 2026/03/20 | Codex for Students ($100 크레딧) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/20 | **SuperApp 발표** (ChatGPT + Codex + Atlas 브라우저 통합) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing) |
@@ -1032,6 +1044,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/25 | **Copilot 데이터 학습 정책** (4/24까지 옵트아웃) + Copilot for Jira 기능 강화 | [github.blog](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/) |
 | 2026/03/11 | GitHub Copilot JetBrains: 커스텀 에이전트, 서브에이전트, Plan Agent GA | [github.blog](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) |
 | 2026/03/09 | **Copilot Cowork** (Anthropic 협업) + **Agent 365** + **M365 E7** ($99/user/월) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/) |
 | 2026/02/~ | M365 Copilot: 스마트 스케줄링, 비주얼 리캡, OneDrive 에이전트 | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489) |
@@ -1041,6 +1054,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/25 | **자체 호스팅 클라우드 에이전트** (Brex, Money Forward, Notion) | [cursor.com](https://cursor.com/blog/self-hosted-cloud-agents) |
 | 2026/03/19 | **Composer 2** 모델 (Kimi K2.5 기반) + **Cursor Glass** 알파 | [cursor.com](https://cursor.com/blog/composer-2) |
 | 2026/03/12 | **$50B 밸류에이션** 협상 (Bloomberg) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation) |
 | 2026/03/02 | **$2B ARR** 돌파 | [techcrunch.com](https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/) |
